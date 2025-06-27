@@ -1,0 +1,278 @@
+{
+	"Changes": [
+		{
+			"LogName": "Honeyfuggle basic dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Honeyfuggle}}",
+			"Entries": {
+			//Daily dialogue
+				//0 hearts
+				"Sun": "{{i18n:{{ModId}}.Sun}}",
+				"Mon": "{{i18n:{{ModId}}.Mon}}",
+				"Tue": "{{i18n:{{ModId}}.Tue}}",
+				"Wed": "{{i18n:{{ModId}}.Wed}}",
+				"Thu": "{{i18n:{{ModId}}.Thu}}",
+				"Fri": "{{i18n:{{ModId}}.Fri}}",
+				"Sat": "{{i18n:{{ModId}}.Sat}}",
+				"summer_Sun": "{{i18n:{{ModId}}.summer_Sun}}",
+
+				//2 hearts
+				"Sun2": "{{i18n:{{ModId}}.Sun2}}",
+				"Mon2": "{{i18n:{{ModId}}.Mon2}}",
+				"Tue2": "{{i18n:{{ModId}}.Tue2}}",
+				"Wed2": "{{i18n:{{ModId}}.Wed2}}",
+				"Thu2": "{{i18n:{{ModId}}.Thu2}}",
+				"Fri2": "{{i18n:{{ModId}}.Fri2}}",
+				"Sat2": "{{i18n:{{ModId}}.Sat2}}",
+
+				//4 hearts
+				"Sun4": "{{i18n:{{ModId}}.Sun4}}",
+				"Mon4": "{{i18n:{{ModId}}.Mon4}}",
+				"Tue4": "{{i18n:{{ModId}}.Tue4{{LewisStatue}}}}",
+				"Wed4": "{{i18n:{{ModId}}.Wed4}}",
+				"Thu4": "{{i18n:{{ModId}}.Thu4}}",
+				"Fri4": "{{i18n:{{ModId}}.Fri4}}",
+				"Fri4_old": "{{i18n:{{ModId}}.Fri4_old}}",
+				"Fri4_{{ModId}}_1": "{{i18n:{{ModId}}.Fri4_{{ModId}}_1}}",
+				"Fri4_{{ModId}}_2": "{{i18n:{{ModId}}.Fri4_{{ModId}}_2}}",
+				"Sat4": "{{i18n:{{ModId}}.Sat4}}",
+
+				//6 hearts
+				"Sun6": "{{i18n:{{ModId}}.Sun6}}",
+				"Mon6": "{{i18n:{{ModId}}.Mon6}}",
+				"Tue6": "{{i18n:{{ModId}}.Tue6}}",
+				"Wed6": "{{i18n:{{ModId}}.Wed6}}",
+				"Thu6": "{{i18n:{{ModId}}.Thu6}}",
+				"Fri6": "{{i18n:{{ModId}}.Fri6}}",
+				"Sat6": "{{i18n:{{ModId}}.Sat6{{RazzyGender}}}}",
+				"spring_Mon6": "{{i18n:{{ModId}}.spring_Mon6}}",
+
+				//8 hearts
+				"Sun8": "{{i18n:{{ModId}}.Sun8}}",
+				"Mon8": "{{i18n:{{ModId}}.Mon8}}",
+				"Tue8": "{{i18n:{{ModId}}.Tue8{{LewisStatue}}}}",
+				"Wed8": "{{i18n:{{ModId}}.Wed8}}",
+				"Thu8": "{{i18n:{{ModId}}.Thu8}}",
+				"Fri8": "{{i18n:{{ModId}}.Fri8}}",
+				"Sat8": "{{i18n:{{ModId}}.Sat8}}",
+				"spring_Tue8": "{{i18n:{{ModId}}.spring_Tue8}}",
+				"spring_Sat8": "{{i18n:{{ModId}}.spring_Sat8}}",				
+				"summer_Mon8": "{{i18n:{{ModId}}.summer_Mon8}}",
+				"summer_Sat8": "{{i18n:{{ModId}}.summer_Sat8}}",
+				"fall_Thu8": "{{i18n:{{ModId}}.fall_Thu8}}",
+				"fall_Sun8": "{{i18n:{{ModId}}.fall_Sun8}}",
+				"winter_Wed8": "{{i18n:{{ModId}}.winter_Wed8}}",
+				"winter_Fri8": "{{i18n:{{ModId}}.winter_Fri8}}",
+
+				//10 hearts
+				"Sun10": "{{i18n:{{ModId}}.Sun10}}",
+				"Mon10": "{{i18n:{{ModId}}.Mon10}}",
+				"Tue10": "{{i18n:{{ModId}}.Tue10}}",
+				"Wed10": "{{i18n:{{ModId}}.Wed10}}",
+				"Thu10": "{{i18n:{{ModId}}.Thu10}}",
+				"Fri10": "{{i18n:{{ModId}}.Fri10}}",
+				"Sat10": "{{i18n:{{ModId}}.Sat10}}",
+				"spring_Mon10": "{{i18n:{{ModId}}.spring_Mon10}}",
+				"spring_Wed10": "{{i18n:{{ModId}}.spring_Wed10}}",
+				"summer_Thu10": "{{i18n:{{ModId}}.summer_Thu10}}",
+				"summer_Fri10": "{{i18n:{{ModId}}.summer_Fri10}}",
+				"fall_Wed10": "{{i18n:{{ModId}}.fall_Wed10}}",
+				"fall_Fri10": "{{i18n:{{ModId}}.fall_Fri10}}",
+				"winter_Sun10": "{{i18n:{{ModId}}.winter_Sun10}}",
+				"winter_Fri10": "{{i18n:{{ModId}}.winter_Thu10}}",
+
+				//Day-specific
+				"spring_1": "{{i18n:{{ModId}}.spring_1}}",
+				"spring_12": "{{i18n:{{ModId}}.spring_12}}",
+				"spring_23": "{{i18n:{{ModId}}.spring_23}}",
+				"summer_1": "{{i18n:{{ModId}}.summer_1}}",
+				"summer_10": "{{i18n:{{ModId}}.summer_10}}",
+				"summer_27": "{{i18n:{{ModId}}.summer_27{{RazzyGender}}}}",
+				"fall_1": "{{i18n:{{ModId}}.fall_1}}",
+				"fall_15": "{{i18n:{{ModId}}.fall_15}}",
+				"fall_26": "{{i18n:{{ModId}}.fall_26}}",
+				"winter_1": "{{i18n:{{ModId}}.winter_1}}",
+				"winter_7": "{{i18n:{{ModId}}.winter_7}}",
+				"winter_24": "{{i18n:{{ModId}}.winter_24}}",
+
+			//Conversation topics
+				//Vanilla
+				"wonGrange": "{{i18n:{{ModId}}.wonGrange}}",
+				"cc_Bus": "{{i18n:{{ModId}}.cc_Bus}}",
+				"cc_Bridge": "{{i18n:{{ModId}}.cc_Bridge}}",
+				"cc_Complete": "{{i18n:{{ModId}}.cc_Complete}}",
+				"movieTheater": "{{i18n:{{ModId}}.movieTheater}}",
+				"pamHouseUprage": "{{i18n:{{ModId}}.pamHouseUprage}}",
+				"pamHouseUpgradeAnonymous": "{{i18n:{{ModId}}.pamHouseUpgradeAnonymous}}",
+				"GreenRain": "{{i18n:{{ModId}}.GreenRain}}",
+				"GreenRainFinished": "{{i18n:{{ModId}}.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:{{ModId}}.GreenRain_2}}",
+
+				//Honeyfuggle
+				"{{ModId}}_Arrival": "{{i18n:{{ModId}}_Arrival}}",
+				"{{ModId}}_MagicTrick": "{{i18n:{{ModId}}_MagicTrick}}",
+
+			//Gifting and reactions
+				"AcceptBirthdayGift_Loved": "{{i18n:{{ModId}}.AcceptBirthdayGift_Loved}}",
+				"AcceptBirthdayGift_Positive": "{{i18n:{{ModId}}.AcceptBirthdayGift_Positive}}",
+				"AcceptBirthdayGift": "{{i18n:{{ModId}}.AcceptBirthdayGift}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:{{ModId}}.AcceptBirthdayGift_Negative}}",
+				"AcceptGift_(O)66": "{{i18n:{{ModId}}.AcceptGift_(O)66}}",
+				"AcceptGift_(O)104": "{{i18n:{{ModId}}.AcceptGift_(O)104}}",
+				"AcceptGift_(O)340": "{{i18n:{{ModId}}.AcceptGift_(O)340}}",
+				"AcceptGift_(O)124": "{{i18n:{{ModId}}.AcceptGift_(O)124}}",
+				"AcceptGift_(O)110": "{{i18n:{{ModId}}.AcceptGift_JunkArtifact}}",
+				"AcceptGift_(O)111": "{{i18n:{{ModId}}.AcceptGift_JunkArtifact}}",
+				"AcceptGift_(O)112": "{{i18n:{{ModId}}.AcceptGift_JunkArtifact}}",
+				"AcceptGift_(O)105": "{{i18n:{{ModId}}.AcceptGift_JunkArtifact}}",
+				"AcceptGift_(O)StardropTea": "{{i18n:{{ModId}}.AcceptGift_(O)StardropTea}}",
+				"RejectMovieTicket": "{{i18n:{{ModId}}.RejectMovieTicket}}",
+				"RejectBouquet_NotDatable": "{{i18n:{{ModId}}.RejectBouquet}}",
+				"DumpsterDiveComment": "{{i18n:{{ModId}}.DumpsterDiveComment}}",
+
+			//Island stuff
+				"Resort_Entering": "{{i18n:{{ModId}}.Resort_Entering}}",
+				"Resort": "{{i18n:{{ModId}}.Resort}}",
+				"Resort_Leaving": "{{i18n:{{ModId}}.Resort_Leaving}}"
+			}
+		},
+		{
+			"LogName": "10 heart event dialogue edit",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/{{Honeyfuggle}}",
+			"Entries": {
+				"Sun10": "{{i18n:{{ModId}}.Sun10.Event.{{MaskOn}}}}",
+				"Mon10": "{{i18n:{{ModId}}.Mon10.Event}}",
+				"Tue10": "{{i18n:{{ModId}}.Tue10.Event}}",
+				"Wed10": "{{i18n:{{ModId}}.Wed10.Event}}",
+				"Thu10": "{{i18n:{{ModId}}.Thu10.Event}}",
+				"Fri10": "{{i18n:{{ModId}}.Fri10.Event}}",
+				"Sat10": "{{i18n:{{ModId}}.Sat10.Event}}",
+				"spring_Tue10": "{{i18n:{{ModId}}.spring_Tue10.Event}}",
+				"spring_Thu10": "{{i18n:{{ModId}}.spring_Thu10.Event}}",
+				"summer_Tue10": "{{i18n:{{ModId}}.summer_Tue10.Event}}",
+				"summer_Wed10": "{{i18n:{{ModId}}.summer_Wed10.Event}}",
+				"summer_Thu10": "{{i18n:{{ModId}}.summer_Thu10.Event}}",
+				"summer_Fri10": "{{i18n:{{ModId}}.summer_Fri10.Event}}",
+				"fall_Mon10": "{{i18n:{{ModId}}.fall_Mon10.Event}}",
+				"fall_Thu10": "{{i18n:{{ModId}}.fall_Thu10.Event}}",
+				"fall_Fri10": "{{i18n:{{ModId}}.fall_Fri10.Event}}",
+				"winter_Mon10": "{{i18n:{{ModId}}.winter_Mon10.Event}}",
+				"winter_Tue10": "{{i18n:{{ModId}}.winter_Tue10.Event}}"
+			},
+			"When": {
+				"HasSeenEvent": "{{ModId}}_10Heart"
+			}
+		},
+
+		//Schedule strings
+		{
+			"LogName": "Honeyfuggle schedule strings",
+            "Action": "EditData",
+		  	"Target": "Strings/Schedules/{{Honeyfuggle}}",
+            "Entries": {
+				"{{ModId}}_Wizard": "{{i18n:{{ModId}}.Wizard.1}}",
+				"{{ModId}}_Gunther": "{{i18n:{{ModId}}.Gunther}}",
+				"{{ModId}}_Saloon": "{{i18n:{{ModId}}.Saloon}}",
+				"{{ModId}}_Beach": "{{i18n:{{ModId}}.Beach}}",
+				"{{ModId}}_NightMarket": "{{i18n:{{ModId}}.NightMarket}}"
+			}
+		},
+		{
+			"LogName": "Wizard schedule string",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Wizard",
+			"Entries": {
+				"{{ModId}}_Wizard": "{{i18n:{{ModId}}.Wizard.2}}"
+
+			}
+		},
+
+		//Other
+		{	
+			"LogName": "Rain dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			"Entries": {
+				"{{Honeyfuggle}}": "{{i18n:{{ModId}}.rain.{{Random:1,2,3}}}}"
+			}
+		},
+		{
+			"LogName": "Desert festival string",
+      		"Action": "EditData",
+      		"Target": "Strings/1_6_Strings",
+      		"Entries": {
+				"DesertFestival_{{Honeyfuggle}}": "{{i18n:{{ModId}}.DesertFestival}}",
+	  		}
+		},
+		{
+			"LogName": "Movie invite dialogue",
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			"Entries": {
+			 	"MovieInvite_Invited_{{Honeyfuggle}}": "{{i18n:{{ModId}}.MovieInvite_Invited}}",
+			}
+		},
+
+		//Conversation topics - Vanilla NPCs
+		{
+			"LogName": "Intro event CTs",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lewis, Characters/Dialogue/Wizard, Characters/Dialogue/Marnie, Characters/Dialogue/Linus",
+			"Entries": {
+				"{{ModId}}_Arrival": "{{i18n:{{ModId}}_Arrival.{{TargetWithoutPath}}}}"
+			}
+		},
+		{
+			"LogName": "2 heart event CTs",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott, Characters/Dialogue/Abigail, Characters/Dialogue/Emily",
+			"Entries": {
+				"{{ModId}}_MagicTrick": "{{i18n:{{ModId}}_MagicTrick.{{TargetWithoutPath}}}}"
+			}
+		},
+		{
+			"LogName": "10 heart event CTs",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard, Characters/Dialogue/Lewis, Characters/Dialogue/Caroline, Characters/Dialogue/Jodi, Characters/Dialogue/Marnie, Characters/Dialogue/George",
+			"Entries": {
+				"{{ModId}}_Departure": "{{i18n:{{ModId}}_Departure.{{TargetWithoutPath}}}}"
+			}
+		},
+
+		//Lasting Conversation Topics
+		{
+			"LogName": "LCT intro",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"{{ModId}}_Arrival": "true"
+			},
+			"When": {
+				"HasConversationTopic": "{{ModId}}_Arrival"
+			}
+		},
+		{
+			"LogName": "LCT 2 heart",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"{{ModId}}_MagicTrick": "true"
+			},
+			"When": {
+				"HasConversationTopic": "{{ModId}}_MagicTrick"
+			}
+		},
+		{
+			"LogName": "LCT 10 heart",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"{{ModId}}_Departure": "true"
+			},
+			"When": {
+				"HasConversationTopic": "{{ModId}}_Departure"
+			}
+		}
+	]
+}
