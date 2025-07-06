@@ -175,6 +175,14 @@
                 /pause 600/stopAnimation Wizard 12/pause 1000/speak Wizard \"{{i18n:{{ModId}}_10HeartFork.5}}\"/pause 1000
                 /end invisible {{Honeyfuggle}}"
             }
+        },
+        {
+            "LogName": "Town events",
+            "Action": "EditData",
+            "Target": "Data/Events/Town",
+            "Entries": {
+                "{{ModId}}_Return/SawEvent {{ModId}}_10Heart/Time 0600 1700/DayOfMonth 1 2 3 4 5 6 7": ""
+            }
         }
     ]
 }

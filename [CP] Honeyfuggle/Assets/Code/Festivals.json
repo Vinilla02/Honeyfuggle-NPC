@@ -8,13 +8,13 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "{{Honeyfuggle}} 40 72 down",
+                    "Value": "{{Honeyfuggle}} 39 72 down",
                     "Delimiter": "/"
                 },
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
-                    "Value": "{{Honeyfuggle}} 40 72 down",
+                    "Value": "{{Honeyfuggle}} 39 72 down",
                     "Delimiter": "/"
                 },
                 {
