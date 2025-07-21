@@ -163,6 +163,13 @@
             "Name": "SaturdaySch",
             "Value": "{{Random:{{WizardSocial}},{{MarlonSocial}}}}",
         },
+        {
+            "Name": "SaturdaySch",
+            "Value": "{{Random:{{MarlonSocial}},{{MarnieSocial}},{{GuntherSocial}}}}",
+            "When": {
+                "HasSeenEvent":"{{ModId}}_10Heart"
+            }
+        },
 
         //Mod compatibility tokens
         //Recolors

@@ -15,7 +15,7 @@
     "Vinilla.Honeyfuggle.DisplayName": "Honeyfuggle", //Note for translators: Honeyfuggle is a real, but very rare, English word that means "to deceive someone by talking to them nicely"
     "Vinilla.Honeyfuggle.TentDisplayName": "Honeyfuggle's Tent",
 
-//Note for translators: Honeyfuggle is meant to be British (specifically English), and their vocabulary and spellings reflect this
+//Note for translators: Honeyfuggle is British (specifically English), and their vocabulary and spellings are meant to reflect this
 
 //Daily dialogue
     //0 heart
@@ -173,7 +173,9 @@
 //Strings
     //Schedule
     "Vinilla.Honeyfuggle.Wizard.1": "Don't mind us, @! We're just discussing some magical matters. I'm sure most of it would go over your head if you tried to listen in, hehe.",
-    "Vinilla.Honeyfuggle.Wizard.2": "Greetings. Honeyfuggle and I were just discussing some arcane matters. They're more knowledgeable about these things than it seems.",
+    "Vinilla.Honeyfuggle.Wizard.2.Neutral": "Greetings. Honeyfuggle and I were just discussing some arcane matters. They're more knowledgeable about these things than it seems.",
+    "Vinilla.Honeyfuggle.Wizard.2.Fem": "Greetings. Honeyfuggle and I were just discussing some arcane matters. She's more knowledgeable about these things than it seems.",
+    "Vinilla.Honeyfuggle.Wizard.2.Masc": "Greetings. Honeyfuggle and I were just discussing some arcane matters. He's more knowledgeable about these things than it seems.",
     "Vinilla.Honeyfuggle.Gunther": "Gunther here knows so many things about archaeology and history! I could listen to him talk about it for hours.$1",
     "Vinilla.Honeyfuggle.Saloon": "I make it a point to only come here on the less busy nights. Too many voices bouncing off the walls and eyes on me and it gets too overwhelming.",
     "Vinilla.Honeyfuggle.Beach": "Lots of interesting things can be washed ashore by the ocean waves, and I don't just mean seashells. It's always worth taking a look to see what you might find!",
@@ -204,22 +206,42 @@
 
 //Conversation topics - vanilla NPCs
     //Intro event
-    "Vinilla.Honeyfuggle_Arrival.Lewis": "Hrm, a new 'resident' in the forest, you say? And their name is Honeyfuggle?#$b#What kind of name is that? Kids these days...$5#$b#Anyway, I guess I'll go say 'hi' to them. Thanks for letting me know, @.",
-    "Vinilla.Honeyfuggle_Arrival.Wizard": "A new... presence has arrived in the valley recently. Be cautious, @, I cannot tell what their intentions are.",
-    "Vinilla.Honeyfuggle_Arrival.Marnie": "You've met our new neighbor, that person with the mask, haven't you?#$b#They introduced themselves to me and said they were here for 'sightseeing'. Isn't that strange?$1#$e#They do seem pretty nice, at least.",
-    "Vinilla.Honeyfuggle_Arrival.Linus": "A fellow drifter has come to town. I invited them to set up their tent next to mine, but they politely declined.#$b#I'm not offended, of course. Everyone is free to exercise their free will as they see fit.$1",
+    "Vinilla.Honeyfuggle_Arrival.Lewis.Neutral": "Hrm, a new 'resident' in the forest, you say? And their name is Honeyfuggle?#$b#What kind of name is that? Kids these days...$5#$b#Anyway, I guess I'll go say 'hi' to them. Thanks for letting me know, @.",
+    "Vinilla.Honeyfuggle_Arrival.Lewis.Fem": "Hrm, a new 'resident' in the forest, you say? And her name is Honeyfuggle?#$b#What kind of name is that? Kids these days...$5#$b#Anyway, I guess I'll go say 'hi' to her. Thanks for letting me know, @.",
+    "Vinilla.Honeyfuggle_Arrival.Lewis.Masc": "Hrm, a new 'resident' in the forest, you say? And his name is Honeyfuggle?#$b#What kind of name is that? Kids these days...$5#$b#Anyway, I guess I'll go say 'hi' to him. Thanks for letting me know, @.",
+    "Vinilla.Honeyfuggle_Arrival.Wizard.Neutral": "A new... presence has arrived in the valley recently. Be cautious, @, I cannot tell what their intentions are.",
+    "Vinilla.Honeyfuggle_Arrival.Wizard.Fem": "A new... presence has arrived in the valley recently. Be cautious, @, I cannot tell what her intentions are.",
+    "Vinilla.Honeyfuggle_Arrival.Wizard.Masc": "A new... presence has arrived in the valley recently. Be cautious, @, I cannot tell what his intentions are.",
+    "Vinilla.Honeyfuggle_Arrival.Marnie.Neutral": "You've met our new neighbor, that person with the mask, haven't you?#$b#They introduced themselves to me and said they were here for 'sightseeing'. Isn't that strange?$1#$e#They do seem pretty nice, at least.",
+    "Vinilla.Honeyfuggle_Arrival.Marnie.Fem": "You've met our new neighbor, that person with the mask, haven't you?#$b#She introduced herself to me and said she was here for 'sightseeing'. Isn't that strange?$1#$e#She does seem pretty nice, at least.",
+    "Vinilla.Honeyfuggle_Arrival.Marnie.Masc": "You've met our new neighbor, that person with the mask, haven't you?#$b#He introduced himself to me and said he was here for 'sightseeing'. Isn't that strange?$1#$e#He does seem pretty nice, at least.",
+    "Vinilla.Honeyfuggle_Arrival.Linus.Neutral": "A fellow drifter has come to town. I invited them to set up their tent next to mine, but they politely declined.#$b#I'm not offended, of course. Everyone is free to exercise their free will as they see fit.$1",
+    "Vinilla.Honeyfuggle_Arrival.Linus.Fem": "A fellow drifter has come to town. I invited her to set up her tent next to mine, but she politely declined.#$b#I'm not offended, of course. Everyone is free to exercise their free will as they see fit.$1",
+    "Vinilla.Honeyfuggle_Arrival.Linus.Masc": "A fellow drifter has come to town. I invited him to set up his tent next to mine, but he politely declined.#$b#I'm not offended, of course. Everyone is free to exercise their free will as they see fit.$1",
 
     //Two heart event
-    "Vinilla.Honeyfuggle_MagicTrick.Elliott": "The things that Honeyfuggle is able to do are simply fascinating!#$b#Perhaps I could use their antics as inspiration for a character in my novel...$1",
-    "Vinilla.Honeyfuggle_MagicTrick.Abigail": "Honeyfuggle still won't tell me how they did that magic stuff in the saloon.$3#$b#I did notice their necklace glowing a bit though, so maybe that has something to do with it?",
+    "Vinilla.Honeyfuggle_MagicTrick.Elliott.Neutral": "The things that Honeyfuggle is able to do are simply fascinating!#$b#Perhaps I could use their antics as inspiration for a character in my novel...$1",
+    "Vinilla.Honeyfuggle_MagicTrick.Elliott.Fem": "The things that Honeyfuggle is able to do are simply fascinating!#$b#Perhaps I could use her antics as inspiration for a character in my novel...$1",
+    "Vinilla.Honeyfuggle_MagicTrick.Elliott.Masc": "The things that Honeyfuggle is able to do are simply fascinating!#$b#Perhaps I could use his antics as inspiration for a character in my novel...$1",
+    "Vinilla.Honeyfuggle_MagicTrick.Abigail.Neutral": "Honeyfuggle still won't tell me how they did that magic stuff in the saloon.$3#$b#I did notice their necklace glowing a bit though, so maybe that has something to do with it?",
+    "Vinilla.Honeyfuggle_MagicTrick.Abigail.Fem": "Honeyfuggle still won't tell me how she did that magic stuff in the saloon.$3#$b#I did notice her necklace glowing a bit though, so maybe that has something to do with it?",
+    "Vinilla.Honeyfuggle_MagicTrick.Abigail.Masc": "Honeyfuggle still won't tell me how he did that magic stuff in the saloon.$3#$b#I did notice his necklace glowing a bit though, so maybe that has something to do with it?",
     "Vinilla.Honeyfuggle_MagicTrick.Emily": "I wish I wasn't on my shift while Honeyfuggle was doing those magic tricks. I would have loved to watch it up close!",
 
     //Ten heart event
-    "Vinilla.Honeyfuggle_Departure.Wizard": "Honeyfuggle should be safe and sound in their own world right now. Well, assuming they don't go out of their way to put themselves into more danger, which is certainly not out of the question for them.#$e#It's a shame to see young wizards be so reckless.",
-    "Vinilla.Honeyfuggle_Departure.Lewis": "I've heard that Honeyfuggle skipped town recently. I wonder where their travels have taken them.",
-    "Vinilla.Honeyfuggle_Departure.Caroline": "Honeyfuggle's gone? Oh, that's a shame.#$b#I'll miss certainly gossiping with them!",
+    "Vinilla.Honeyfuggle_Departure.Wizard.Neutral": "Honeyfuggle should be safe and sound in their own world right now. Well, assuming they don't go out of their way to put themselves into more danger, which is certainly not out of the question for them.#$e#It's a shame to see young wizards be so reckless.",
+    "Vinilla.Honeyfuggle_Departure.Wizard.Fem": "Honeyfuggle should be safe and sound in her own world right now. Well, assuming she doesn't go out of her way to put herself into more danger, which is certainly not out of the question for her.#$e#It's a shame to see young wizards be so reckless.",
+    "Vinilla.Honeyfuggle_Departure.Wizard.Masc": "Honeyfuggle should be safe and sound in his own world right now. Well, assuming he doesn't go out of his way to put himself into more danger, which is certainly not out of the question for him.#$e#It's a shame to see young wizards be so reckless.",
+    "Vinilla.Honeyfuggle_Departure.Lewis.Neutral": "I've heard that Honeyfuggle skipped town recently. I wonder where their travels have taken them.",
+    "Vinilla.Honeyfuggle_Departure.Lewis.Fem": "I've heard that Honeyfuggle skipped town recently. I wonder where her travels have taken her.",
+    "Vinilla.Honeyfuggle_Departure.Lewis.Masc": "I've heard that Honeyfuggle skipped town recently. I wonder where his travels have taken him.",
+    "Vinilla.Honeyfuggle_Departure.Caroline.Neutral": "Honeyfuggle's gone? Oh, that's a shame.#$b#I'll miss certainly gossiping with them!",
+    "Vinilla.Honeyfuggle_Departure.Caroline.Fem": "Honeyfuggle's gone? Oh, that's a shame.#$b#I'll miss certainly gossiping with her!",
+    "Vinilla.Honeyfuggle_Departure.Caroline.Masc": "Honeyfuggle's gone? Oh, that's a shame.#$b#I'll miss certainly gossiping with him!",
     "Vinilla.Honeyfuggle_Departure.Jodi": "I can't stop wondering about where Honeyfuggle's gone off to. Do you think it's somewhere interesting?#$e#If you hear any rumors about it, I'd love to know.$1",
-    "Vinilla.Honeyfuggle_Departure.Marnie": "It's odd to admit it, but I do think I'm going to miss Honeyfuggle a little bit.$2#$b#They were strange, sure, but still an interesting character to be around.",
+    "Vinilla.Honeyfuggle_Departure.Marnie.Neutral": "It's odd to admit it, but I do think I'm going to miss Honeyfuggle a little bit.$2#$b#They were strange, sure, but still an interesting character to be around.",
+    "Vinilla.Honeyfuggle_Departure.Marnie.Fem": "It's odd to admit it, but I do think I'm going to miss Honeyfuggle a little bit.$2#$b#She was strange, sure, but still an interesting character to be around.",
+    "Vinilla.Honeyfuggle_Departure.Marnie.Masc": "It's odd to admit it, but I do think I'm going to miss Honeyfuggle a little bit.$2#$b#He was strange, sure, but still an interesting character to be around.",
     "Vinilla.Honeyfuggle_Departure.George": "Huh? Honeyfuggle left town?#$b#Pah, good riddance! Looking at those outrageous colors made my eyes hurt.",
     
 //Festivals
@@ -257,7 +279,9 @@
 
     //Journey of the Praire king
     "Vinilla.Honeyfuggle.Movies.3": "Ohoho, I do enjoy a good cowboy film!$1",
-    "Vinilla.Honeyfuggle.Movies.4": "Honeyfuggle has an amused smirk on their face.",
+    "Vinilla.Honeyfuggle.Movies.4.Neutral": "Honeyfuggle has an amused smirk on their face.",
+    "Vinilla.Honeyfuggle.Movies.4.Fem": "Honeyfuggle has an amused smirk on her face.",
+    "Vinilla.Honeyfuggle.Movies.4.Masc": "Honeyfuggle has an amused smirk on his face.",
     "Vinilla.Honeyfuggle.Movies.5": "What a fun time that was! I do kinda wish the villain had won though, hehe.$8",
 
     //Mysterium
@@ -267,7 +291,9 @@
 
     //Miracle at Coldstar Ranch
     "Vinilla.Honeyfuggle.Movies.9": "I'm not really a festive person but I guess I'll keep an open mind...?$2",
-    "Vinilla.Honeyfuggle.Movies.10": "Honeyfuggle is groaning to themselves.",
+    "Vinilla.Honeyfuggle.Movies.10.Neutral": "Honeyfuggle is groaning to themselves.",
+    "Vinilla.Honeyfuggle.Movies.10.Fem": "Honeyfuggle is groaning to herself.",
+    "Vinilla.Honeyfuggle.Movies.10.Masc": "Honeyfuggle is groaning to himself.",
     "Vinilla.Honeyfuggle.Movies.11": "Still not feeling the festive cheer very much after that, I've got to admit. Sorry, @.$3",
 
     //Natural Wonders
@@ -342,13 +368,15 @@
 
     //6 heart
     "Vinilla.Honeyfuggle_6Heart.0": "Hello, Mister Gunther!$1",
-    "Vinilla.Honeyfuggle_6Heart.1": "Why howdy there, Miss Honeyfuggle. Is there anything I can help you with?",
+    "Vinilla.Honeyfuggle_6Heart.1.Neutral": "Why howdy there, Mx. Honeyfuggle. Is there anything I can help you with?",
+    "Vinilla.Honeyfuggle_6Heart.1.Fem": "Why howdy there, Ms. Honeyfuggle. Is there anything I can help you with?",
+    "Vinilla.Honeyfuggle_6Heart.1.Masc": "Why howdy there, Mr. Honeyfuggle. Is there anything I can help you with?",
     "Vinilla.Honeyfuggle_6Heart.2": "I do have some books I'd like to check out, but first I wanted to ask how you've been today!",
     "Vinilla.Honeyfuggle_6Heart.3": "Well thanks for asking! One of my colleagues published a new paper on a dig he's doing in northern Ferngill so I've been reading up on that the past few days.",
     "Vinilla.Honeyfuggle_6Heart.4": "Ooh, is that the one who's researching the tundra dwellers?",
     "Vinilla.Honeyfuggle_6Heart.5": "The very same. He's found evidence that suggests they had settlements here on the mainland in the distant past.",
     "Vinilla.Honeyfuggle_6Heart.6": "How fascinating!",
-    "Vinilla.Honeyfuggle_6Heart.7": "Mister Gunther, I can't help but notice how hard you have to work to keep this library running.$3#$b#I'd love to be able to help you out with something small, like perhaps organising some of the shelves after hours?#$b#Or maybe... doing the dusting for the artifacts?~$1",
+    "Vinilla.Honeyfuggle_6Heart.7": "Mr. Gunther, I can't help but notice how hard you have to work to keep this library running.$3#$b#I'd love to be able to help you out with something small, like perhaps organising some of the shelves after hours?#$b#Or maybe... doing the dusting for the artifacts?~$1",
     "Vinilla.Honeyfuggle_6Heart.8": "That's a mighty kind offer, Honeyfuggle, but I'm afraid I can't let you do that.",
     "Vinilla.Honeyfuggle_6Heart.9": "Why not? I'll be sure to be careful! I've got a delicate touch!$9",
     "Vinilla.Honeyfuggle_6Heart.10": "Do you have a degree in library science? Any training or experience at all in library management?",
@@ -358,7 +386,7 @@
     "Vinilla.Honeyfuggle_6Heart.14": "Yes please...$3",
 
     //8 heart
-    "Vinilla.Honeyfuggle_8Heart.0": "With how suspicious Honeyfuggle has been lately, you feel the need to do some investigating...",
+    "Vinilla.Honeyfuggle_8Heart.0": "With how suspicious Honeyfuggle has been lately, you feel the need to do some investigating.",
     "Vinilla.Honeyfuggle_8Heart.1": "It seems that there was a magical seal protecting the chest, but it was so weak that a mere touch dissipated it...",
     "Vinilla.Honeyfuggle_8Heart.2": "What's this...?",
     "Vinilla.Honeyfuggle_8Heart.3": "'Wanted: Honeyfuggle Melrose, for the crimes of theft and fraud. Reward for capture: 1000 pentacles.'",
@@ -394,8 +422,8 @@
     "Vinilla.Honeyfuggle_10Heart.12": "Aha!",
     "Vinilla.Honeyfuggle_10Heart.13": "Eek!!",
     "Vinilla.Honeyfuggle_10Heart.14": "Hmph. Hello, Honeyfuggle. I suppose this confirms the suspicions I had about you.",
-    "Vinilla.Honeyfuggle_10Heart.15": "Oh, h-hi, Rasmodius! What do you mean?$9#$b#I'm just here to, uh, help @ out with their farming!$1",
-    "Vinilla.Honeyfuggle_10Heart.15.Rasmodia": "Oh, h-hi, Rasmodia! What do you mean?$9#$b#I'm just here to, uh, help @ out with their farming!$1",
+    "Vinilla.Honeyfuggle_10Heart.15": "Oh, h-hi, Rasmodius! What do you mean?$9#$b#I'm just here to, uh, help @ out with ${his^her^their}$ farming!$1",
+    "Vinilla.Honeyfuggle_10Heart.15.Rasmodia": "Oh, h-hi, Rasmodia! What do you mean?$9#$b#I'm just here to, uh, help @ out with ${his^her^their}$ farming!$1",
     "Vinilla.Honeyfuggle_10Heart.16": "Don't play games.#$b#I can sense you took something of mine. What is it?$1",
     "Vinilla.Honeyfuggle_10Heart.17": "This sceptre...$6#$b#But hey, you weren't using it anyway! I'm liberating it from an eternity of collecting dust, really.$2",
     "Vinilla.Honeyfuggle_10Heart.18": "...The Sceptre of Polarity?#$b#You're from another world, aren't you? And you're stuck here in this one!$1",
@@ -416,5 +444,16 @@
     "Vinilla.Honeyfuggle_10HeartFork.3": "Hm... I suppose it can't hurt to look around for a bit longer. I've got to make use of these excellent thieving skills somehow~$8",
     "Vinilla.Honeyfuggle_10HeartFork.4": "Oh, h-hi, Rasmodius! What do you mean?$9#$b#I'm just here to, uh, do some research?$2",
     "Vinilla.Honeyfuggle_10HeartFork.4.Rasmodia": "Oh, h-hi, Rasmodia! What do you mean?$9#$b#I'm just here to, uh, do some research?$2",
-    "Vinilla.Honeyfuggle_10HeartFork.5": "(Sigh) Kids these days..."
+    "Vinilla.Honeyfuggle_10HeartFork.5": "(Sigh) Kids these days...",
+
+    //Return event
+    "Vinilla.Honeyfuggle_Return.0": "@! Goodness, it's so nice to run into you!$1",
+    "Vinilla.Honeyfuggle_Return.1": "Hehe, I was being serious when I said we'd meet again!#$b#I may not be the most powerful wizard around town but I'd to think I'm one of the more resourceful ones~$8",
+    "Vinilla.Honeyfuggle_Return.2": "How did you manage to get back here?",
+    "Vinilla.Honeyfuggle_Return.3": "What are you doing here in the valley, exactly?",
+    "Vinilla.Honeyfuggle_Return.4": "Honestly, @, if you haven't figured out my credo by now, I'll just leave it up to your imagination!$7",
+    "Vinilla.Honeyfuggle_Return.5": "Nothing at all! And I mean that genuinely, I'm not trying to be deceptive.",
+    "Vinilla.Honeyfuggle_Return.6": "I figured that since there's already plenty of 'leads' to pursue and 'quests' to go on in my home world, I can visit this one when I just need some me-time.#$b#My home from home, if you will~$1#$b#I really have grown to love this place and appreciate it for what it is, despite the initial circumstances that brought me here. Especially with all the nice people like you that live in it.$4",
+    "Vinilla.Honeyfuggle_Return.7": "Hehe, alright, that's all the saccharine sentimentality you're getting out of me for now.$8#$b#But yeah! You can expect to see me around town from time to time. I'll try to stick to a schedule for once - I'll be here for the first week of each season, same location as before.",
+    "Vinilla.Honeyfuggle_Return.8": "Anywho, I'll get out of your hair now! Have a nice day, @!$1",
 }

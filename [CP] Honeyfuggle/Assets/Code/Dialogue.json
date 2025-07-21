@@ -183,7 +183,7 @@
 			"Action": "EditData",
 			"Target": "Strings/Schedules/Wizard",
 			"Entries": {
-				"{{ModId}}_Wizard": "{{i18n:{{ModId}}.Wizard.2}}"
+				"{{ModId}}_Wizard": "{{i18n:{{ModId}}.Wizard.2.{{Random:Neutral,Fem,Masc}}}}"
 
 			}
 		},
@@ -220,21 +220,37 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Lewis, Characters/Dialogue/Wizard, Characters/Dialogue/Marnie, Characters/Dialogue/Linus",
 			"Entries": {
-				"{{ModId}}_Arrival": "{{i18n:{{ModId}}_Arrival.{{TargetWithoutPath}}}}"
+				"{{ModId}}_Arrival": "{{i18n:{{ModId}}_Arrival.{{TargetWithoutPath}}.{{Random:Neutral,Fem,Masc|key={{TargetWithoutPath}}}}}}"
 			}
 		},
 		{
-			"LogName": "2 heart event CTs",
+			"LogName": "2 heart event CTs - part one",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Elliott, Characters/Dialogue/Abigail, Characters/Dialogue/Emily",
+			"Entries": {
+				"{{ModId}}_MagicTrick": "{{i18n:{{ModId}}_MagicTrick.{{TargetWithoutPath}}.{{Random:Neutral,Fem,Masc|key={{TargetWithoutPath}}}}}}"
+			}
+		},
+		{
+			"LogName": "2 heart event CTs - part two",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
 			"Entries": {
 				"{{ModId}}_MagicTrick": "{{i18n:{{ModId}}_MagicTrick.{{TargetWithoutPath}}}}"
 			}
 		},
 		{
-			"LogName": "10 heart event CTs",
+			"LogName": "10 heart event CTs - part one",
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Wizard, Characters/Dialogue/Lewis, Characters/Dialogue/Caroline, Characters/Dialogue/Jodi, Characters/Dialogue/Marnie, Characters/Dialogue/George",
+			"Entries": {
+				"{{ModId}}_Departure": "{{i18n:{{ModId}}_Departure.{{TargetWithoutPath}}.{{Random:Neutral,Fem,Masc|key={{TargetWithoutPath}}}}}}"
+			}
+		},
+		{
+			"LogName": "10 heart event CTs - part two",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi, Characters/Dialogue/George",
 			"Entries": {
 				"{{ModId}}_Departure": "{{i18n:{{ModId}}_Departure.{{TargetWithoutPath}}}}"
 			}

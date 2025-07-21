@@ -68,7 +68,7 @@
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/message \"{{i18n:{{ModId}}.Movies.4}}\"",
+                                    "Script": "/message \"{{i18n:{{ModId}}.Movies.4.{{Random:Neutral,Fem,Masc}}}}\"",
                                     "Text": ""
                                 },
                                 "AfterMovie": {
@@ -112,7 +112,7 @@
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
-                                    "Script": "/message \"{{i18n:{{ModId}}.Movies.10}}\"",
+                                    "Script": "/message \"{{i18n:{{ModId}}.Movies.10.{{Random:Neutral,Fem,Masc}}}}\"",
                                     "Text": ""
                                 },
                                 "AfterMovie": {

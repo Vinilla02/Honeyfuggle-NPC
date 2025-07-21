@@ -97,7 +97,7 @@
                 "{{ModId}}_6Heart/Friendship {{Honeyfuggle}} 2000/SawEvent {{ModId}}_4Heart": "libraryTheme/7 11/farmer 3 14 0 {{Honeyfuggle}} 8 10 0 Gunther 3 8 2 Elliott 10 10 2 Penny 16 9 0/showFrame Elliott 33/skippable/pause 500
                 /playSound doorClose/pause 500/advancedMove Penny true 2 0 4 4500 -2 0 4 6000/advancedMove farmer false 0 -2 5 0 0 -4 1 1000
                 /move {{Honeyfuggle}} -5 0 0/pause 500/speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_6Heart.0}}\"
-                /speak Gunther \"{{i18n:{{ModId}}_6Heart.1}}\"
+                /speak Gunther \"{{i18n:{{ModId}}_6Heart.1.{{Random:Neutral,Fem,Masc}}}}\"
                 /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_6Heart.2}}\"/faceDirection {{Honeyfuggle}} 1/pause 100/addObject 4 8 Book_Diamonds 1/playSound dwop/pause 500/faceDirection {{Honeyfuggle}} 0
                 /speak Gunther \"{{i18n:{{ModId}}_6Heart.3}}\"
                 /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_6Heart.4}}\"
@@ -181,7 +181,16 @@
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
-                "{{ModId}}_Return/SawEvent {{ModId}}_10Heart/Time 0600 1700/DayOfMonth 1 2 3 4 5 6 7": ""
+                "{{ModId}}_Return/SawEvent {{ModId}}_10Heart/Time 0600 1700/DayOfMonth 1 2 3 4 5 6 7": "distantBanjo/45 59/farmer 49 49 2 {{Honeyfuggle}} -100 -100 2/skippable
+                /move farmer 0 8 2 true/pause 3000/warp {{Honeyfuggle}} 43 57/playSound doorClose/pause 1000/faceDirection {{Honeyfuggle}} 1
+                /emote {{Honeyfuggle}} 16/speed {{Honeyfuggle}} 5/move {{Honeyfuggle}} 4 0 1/faceDirection farmer 3
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_Return.0}}\"/emote farmer 16
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_Return.1}}\"/jump farmer 4/pause 1000
+                /quickQuestion #{{i18n:{{ModId}}_Return.2}}#{{i18n:{{ModId}}_Return.3}}(break)speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_Return.4}}\"(break)speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_Return.5}}\"
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_Return.6}}\"/emote farmer 20
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_Return.7}}\"/emote farmer 32/pause 500
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_Return.8}}\"/move {{Honeyfuggle}} -4 0 3 true/pause 1000/end"
+
             }
         }
     ]
