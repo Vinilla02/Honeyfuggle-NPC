@@ -1,6 +1,11 @@
 {
-    "Format": "2.6.0",
+    "$schema": "https://smapi.io/schemas/content-patcher.json",
+    "Format": "2.7.0",
     "ConfigSchema": {
+        "SeasonalOutfits": {
+            "AllowValues": "full, vanilla",
+            "Default": "full"
+        },
         "ImmersiveMode": {
             "AllowValues": "true, false",
             "Default": "true"
@@ -9,10 +14,6 @@
             "AllowValues": "true, false",
             "Default": "true"
         },
-        "SeasonalOutfits": {
-            "AllowValues": "full, vanilla",
-            "Default": "full"
-        }
     },
 
     "DynamicTokens": [
