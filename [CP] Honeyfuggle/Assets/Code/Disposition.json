@@ -91,6 +91,7 @@
                     "Calendar": "HiddenUntilMet",
                     "SocialTab": "HiddenUntilMet",
                     "CanVisitIsland": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_Introduction",
+                    "ItemDeliveryQuests": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_Introduction",
                     "PerfectionScore": "{{Perfection}}",
                     "EndSlideShow": "TrailingGroup",
                     "DumpsterDiveEmote": 12,

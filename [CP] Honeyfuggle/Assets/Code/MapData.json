@@ -95,8 +95,10 @@
                 "{{ModId}}_ClearTerrain": {
                     "Id": "{{ModId}}_ClearTerrain",
                     "Trigger": "LocationChanged",
-                    "Action": "Spiderbuttons.BETAS_ClearTerrainFeatures Forest All 15 82 22 87",
-                    "Condition": "{{HoneyfuggleInValley}}",
+                    "Actions": [
+                        "Spiderbuttons.BETAS_ClearTerrainFeatures Forest All 15 82 22 87",
+                    ],
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_Introduction",
                     "MarkApplied": false
                 }
             }

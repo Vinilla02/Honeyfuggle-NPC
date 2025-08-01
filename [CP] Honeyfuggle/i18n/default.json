@@ -121,7 +121,7 @@
 
     //Day-specific
     "Vinilla.Honeyfuggle.spring_1": "Happy new years to you, @! Let's hope this is a 'productive' year for the both of us~",
-    "Vinilla.Honeyfuggle.spring_12": "Abigail has been spending the past few days warming up for the Egg Hunt tomorrow. You better be ready for quite the showdown!$8",
+    "Vinilla.Honeyfuggle.spring_12": "Abigail has been spending the past few days warming up for the Egg Hunt tomorrow. You best be ready for quite the fearsome showdown!$8",
     "Vinilla.Honeyfuggle.spring_23": "I'm sitting out the main event tomorrow. Dancing is fun but uh, not that kind of dancing.",
     "Vinilla.Honeyfuggle.summer_1": "Got any plans to hit the beach this summer, @? Got to be keeping cool somehow!",
     "Vinilla.Honeyfuggle.summer_10": "The idea of a communal soup is a bit iffy to me, but I think I'm looking forward to it either way.#$b#Whether I'll be able to find an ingredient that improves it in any meaningful way is another story...$2",
@@ -275,19 +275,19 @@
     //Brave Little Sapling
     "Vinilla.Honeyfuggle.Movies.0": "I think I can tell what the plot of this one is just by reading the poster.$3",
     "Vinilla.Honeyfuggle.Movies.1": "Honeyfuggle appears to be staring at the ceiling...",
-    "Vinilla.Honeyfuggle.Movies.2": "Sorry about zoning out there, kids' films aren't really my thing.",
+    "Vinilla.Honeyfuggle.Movies.2": "Sorry about zoning out there, kids' films aren't really my cup of tea.",
 
     //Journey of the Praire king
     "Vinilla.Honeyfuggle.Movies.3": "Ohoho, I do enjoy a good cowboy film!$1",
     "Vinilla.Honeyfuggle.Movies.4.Neutral": "Honeyfuggle has an amused smirk on their face.",
     "Vinilla.Honeyfuggle.Movies.4.Fem": "Honeyfuggle has an amused smirk on her face.",
     "Vinilla.Honeyfuggle.Movies.4.Masc": "Honeyfuggle has an amused smirk on his face.",
-    "Vinilla.Honeyfuggle.Movies.5": "What a fun time that was! I do kinda wish the villain had won though, hehe.$8",
+    "Vinilla.Honeyfuggle.Movies.5": "What a fun time that was! I do sorta wish the villain had won though, hehe.$8",
 
     //Mysterium
     "Vinilla.Honeyfuggle.Movies.6": "I've got no idea what to expect with this film but I think it looks interesting nonetheless!",
     "Vinilla.Honeyfuggle.Movies.7": "Wait, what? I feel like I should be taking notes for this!$1",
-    "Vinilla.Honeyfuggle.Movies.8": "Oh, I absolutely loved that! I've got to read up what theories and analyses people have come with online.$1",
+    "Vinilla.Honeyfuggle.Movies.8": "Oh, I absolutely loved that! I've got to read up on the theories and analyses people have come with online.$1",
 
     //Miracle at Coldstar Ranch
     "Vinilla.Honeyfuggle.Movies.9": "I'm not really a festive person but I guess I'll keep an open mind...?$2",
@@ -314,7 +314,7 @@
     //Zuzu City Express
     "Vinilla.Honeyfuggle.Movies.21": "Hm, I don't think I would've have gone to watch this one on my own. I suppose I'll trust your judgement though~",
     "Vinilla.Honeyfuggle.Movies.22": "Honeyfuggle's posture straightens as the emotions of the scene climb higher.",
-    "Vinilla.Honeyfuggle.Movies.23": "I don't really care much for romances, but I can still appreciate the production design that went into old films like this one!#$b#Yep, definitely just the production design I was appreciating there.",
+    "Vinilla.Honeyfuggle.Movies.23": "I don't care much for romances, but I can still appreciate the production design that went into old films like this one!#$b#Yep, definitely just the production design I was appreciating there.",
 
 //Mail
     "Vinilla.Honeyfuggle_Skipped10Heart": "Hello, friend!^By the time you're reading this, I'll be back in my own world. Yes, I'm from a different world, sorry I didn't mention it earlier!^^My heist was successful, initially, but I might have overstayed my welcome and got busted by Rasmodius anyway. He was more understanding about the situation than I thought he'd be though, saying I could've just asked him to borrow the artifact I needed to get back home. Oops.^^Anyway, I'll be coming back to visit Stardew Valley every so often, I think. I'd be sad if I was never able to see a friend like you again!^^ -Yours truly, Honeyfuggle[#]Greetings From Another World",
@@ -343,7 +343,7 @@
     "Vinilla.Honeyfuggle_2Heart.5": "Hm, I don't know...",
     "Vinilla.Honeyfuggle_2Heart.6": "C'mon!",
     "Vinilla.Honeyfuggle_2Heart.7": "I still want to know how it works!$1",
-    "Vinilla.Honeyfuggle_2Heart.8": "Hehehe, alright! I *suppose* I can do one more trick~$8#$b#@, would you like to have the honours of being my assistant for this?",
+    "Vinilla.Honeyfuggle_2Heart.8": "Hehehe, alright! I *suppose* I can do one more trick~$8#$b#@, would you have the honours of being my assistant for this?",
     "Vinilla.Honeyfuggle_2Heart.9": "So-- you're a farmer, correct? I want you to think of a certain fruit or vegetable. Imagine it in your mind's eye.#$b#Think about the flavour it has, the colour, the texture.$1#$b#Got it? Alright, now let me work my magic...",
     "Vinilla.Honeyfuggle_2Heart.10": "Aha! I think I've got it.",
     "Vinilla.Honeyfuggle_2Heart.11": "I can't wait!",
