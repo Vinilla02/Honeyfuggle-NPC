@@ -31,7 +31,7 @@
             "Action": "EditData",
             "Target": "Data/Mail",
             "Entries": {
-                "{{ModId}}_Skipped10Heart": "{{i18n:{{ModId}}_Skipped10Heart{{RazzyGender}}}}"
+                "{{ModId}}_Skipped10Heart": "{{i18n:{{ModId}}_Skipped10Heart{{RazzyGender}}}}[#]{{i18n:{{ModId}}_Skipped10Heart_Title}}"
             }
         }
     ]

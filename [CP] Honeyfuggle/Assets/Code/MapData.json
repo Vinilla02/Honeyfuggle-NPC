@@ -40,9 +40,9 @@
             "Action": "EditData",
             "Target": "strings/StringsFromMaps",
             "Entries": {
-                "{{ModId}}.Chest": "{{i18n:{{ModId}}.Chest}}",
-                "{{ModId}}.Pictures": "{{i18n:{{ModId}}.Pictures}}",
-                "{{ModId}}.Ticket": "{{i18n:{{ModId}}.Ticket}}"
+                "{{ModId}}.Chest": "{{i18n:Chest}}",
+                "{{ModId}}.Pictures": "{{i18n:Pictures}}",
+                "{{ModId}}.Ticket": "{{i18n:Ticket}}"
             }
         },
 
@@ -94,12 +94,12 @@
             "Entries": {
                 "{{ModId}}_ClearTerrain": {
                     "Id": "{{ModId}}_ClearTerrain",
-                    "Trigger": "LocationChanged",
+                    "Trigger": "DayStarted",
                     "Actions": [
                         "Spiderbuttons.BETAS_ClearTerrainFeatures Forest All 15 82 22 87",
                     ],
                     "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_Introduction",
-                    "MarkApplied": false
+                    "MarkActionApplied": false
                 }
             }
         }

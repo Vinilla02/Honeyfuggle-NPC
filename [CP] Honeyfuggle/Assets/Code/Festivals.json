@@ -40,8 +40,8 @@
             "Action": "EditData",
 			"Target": "Data/Festivals/spring13",
             "Entries": {
-                "{{Honeyfuggle}}": "{{i18n:{{ModId}}.EggFestival}}",
-                "{{Honeyfuggle}}_y2": "{{i18n:{{ModId}}.EggFestival2}}"
+                "{{Honeyfuggle}}": "{{i18n:EggFestival}}",
+                "{{Honeyfuggle}}_y2": "{{i18n:EggFestival2}}"
             }
         },
         {
@@ -77,8 +77,8 @@
             "Action": "EditData",
 			"Target": "Data/Festivals/spring24",
             "Entries": {
-                "{{Honeyfuggle}}": "{{i18n:{{ModId}}.FlowerDance}}",
-                "{{Honeyfuggle}}_y2": "{{i18n:{{ModId}}.FlowerDance2}}"
+                "{{Honeyfuggle}}": "{{i18n:FlowerDance}}",
+                "{{Honeyfuggle}}_y2": "{{i18n:FlowerDance2}}"
             }
         },
         {
@@ -120,8 +120,8 @@
             "Action": "EditData",
 			"Target": "Data/Festivals/summer11",
             "Entries": {
-                "{{Honeyfuggle}}": "{{i18n:{{ModId}}.Luau}}",
-                "{{Honeyfuggle}}_y2": "{{i18n:{{ModId}}.Luau2}}"
+                "{{Honeyfuggle}}": "{{i18n:Luau}}",
+                "{{Honeyfuggle}}_y2": "{{i18n:Luau2}}"
             }
         },
         {
@@ -156,8 +156,8 @@
             "Action": "EditData",
 			"Target": "Data/Festivals/summer28",
             "Entries": {
-                "{{Honeyfuggle}}": "{{i18n:{{ModId}}.MoonlightJellies}}",
-                "{{Honeyfuggle}}_y2": "{{i18n:{{ModId}}.MoonlightJellies2}}"
+                "{{Honeyfuggle}}": "{{i18n:MoonlightJellies}}",
+                "{{Honeyfuggle}}_y2": "{{i18n:MoonlightJellies2}}"
             }
         },
         {
@@ -187,8 +187,8 @@
             "Action": "EditData",
 			"Target": "Data/Festivals/fall16",
             "Entries": {
-                "{{Honeyfuggle}}": "{{i18n:{{ModId}}.StardewValleyFair}}",
-                "{{Honeyfuggle}}_y2": "{{i18n:{{ModId}}.StardewValleyFair2}}"
+                "{{Honeyfuggle}}": "{{i18n:StardewValleyFair}}",
+                "{{Honeyfuggle}}_y2": "{{i18n:StardewValleyFair2}}"
             }
         },
         {
@@ -218,8 +218,8 @@
             "Action": "EditData",
 			"Target": "Data/Festivals/fall27",
             "Entries": {
-                "{{Honeyfuggle}}": "{{i18n:{{ModId}}.SpiritsEve.{{IdentityKnown}}}}",
-                "{{Honeyfuggle}}_y2": "{{i18n:{{ModId}}.SpiritsEve2}}"
+                "{{Honeyfuggle}}": "{{i18n:SpiritsEve.{{IdentityKnown}}}}",
+                "{{Honeyfuggle}}_y2": "{{i18n:SpiritsEve2}}"
             }
         },
         {
@@ -261,8 +261,8 @@
             "Action": "EditData",
 			"Target": "Data/Festivals/winter8",
             "Entries": {
-                "{{Honeyfuggle}}": "{{i18n:{{ModId}}.IceFestival}}",
-                "{{Honeyfuggle}}_y2": "{{i18n:{{ModId}}.IceFestival2}}"
+                "{{Honeyfuggle}}": "{{i18n:IceFestival}}",
+                "{{Honeyfuggle}}_y2": "{{i18n:IceFestival2}}"
             }
         },
         {
@@ -292,8 +292,8 @@
             "Action": "EditData",
 			"Target": "Data/Festivals/winter25",
             "Entries": {
-                "{{Honeyfuggle}}": "{{i18n:{{ModId}}.WinterStar{{Solstice}}}}",
-                "{{Honeyfuggle}}_y2": "{{i18n:{{ModId}}.WinterStar2}}"
+                "{{Honeyfuggle}}": "{{i18n:WinterStar{{Solstice}}}}",
+                "{{Honeyfuggle}}_y2": "{{i18n:WinterStar2}}"
             }
         }
     ]

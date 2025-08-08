@@ -293,7 +293,7 @@
         {
             "LogName": "Load character data file",
             "Action": "Include",
-            "FromFile": "Assets/Code/Disposition.json"
+            "FromFile": "Assets/Code/Disposition.json",
         },
         {
             "LogName": "Load dialogue file",
