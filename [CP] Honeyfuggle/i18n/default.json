@@ -165,6 +165,13 @@
     "AcceptGift_(O)124": "There's certainly a magical energy infused into this, though its size is quite unwieldy compared to my current mask...#$b#Regardless, I'm sure I'll be able to find a use for it!$8", //Golden Mask
     "AcceptGift_(O)StardropTea": "Ooh, what a deliciously soothing drink! You didn't steal one of my lavender tea sachets, did you?$7", //Stardrop Tea
     "AcceptGift_JunkArtifact": "Is this really your idea of a precious artifact? This is worthless rubbish!$5", //Rusty Spoon, Rusty Cog, Rusty Spur, Chewing Stick
+    "AcceptGift_lavender_item": "Ahh, this smells so good~ I wonder if I can make tea with it...$1", //new in 1.1.0: Lavender (added by various mods)
+    "AcceptGift_(O)Wildflour.AtelierGoods_Lavender_Doughnuts": "Lavender Dreams...! What a lovely name.$1#$b#Hm, why does that sound familiar...?", //new in 1.1.0: Wildflour Atelier Goods Lavender Dreams Doughnuts
+    "AcceptGift_(O)Wildflour.AtelierGoods_Honey_Lavender_Cookies": "Two of my favourite flavours combined into one baked good!? This is amazing, @, thank you!$1", //new in 1.1.0: Wildflour Atelier Goods Honey Lavender Cookies
+    "AcceptGift_(O)Rafseazz.RSVCP_Honey_Glazed_Salad": "??????$9#$b#Salad... but with honey on top... I am not sure how to process this information...$3", //new in 1.1.0: Ridgeside Village Honey Glazed Salad
+    "AcceptGift_(O)appleseed.BCP.PlushBee": "A bee! In marketable plush form!? Oh my goodness that is the most adorable thing I've ever seen!!~$1", //new in 1.1.0:  Baubles Plush Bee
+    "AcceptGift(O)appleseed.BCP.CurioBook": "How curious, this reminds me of some of the textbooks I had to read in school. Perhaps I'll find something useful in here...$0", //new in 1.1.0: Baubles Magic Tinkerer's Tome
+    "AcceptGift(O)appleseed.BCP.PlushWizard": "Oh, it's... a wizard! Hahah... An interesting choice for a gift, I'll say.", //new in 1.1.0: Baubles Plush Wizard
 
     //Other
     "MovieInvite_Invited": "Ooh, a film? I haven't been to a cinema in ages, I'd love to tag along!$1#$b#Go on ahead, I'll meet you there~",
@@ -193,7 +200,7 @@
     "Ticket": "A pile of miscellaneous objects, including a golden necklace and a train ticket, which reads \"Pale Horse Locomotive\".",
 
 //Conversation topics - Honeyfuggle
-    //Vanilla CTs
+    //Vanilla
     "wonGrange": "Good job on taking home that blue ribbon at the fair, @!#$b#Apparently Pierre has won every year in recent history, so the newbie farmer dethroning him has caused quite the buzz amongst the townsfolk!$9",
     "cc_Bus": "I heard that old bus is working now, d'you think I could drive myself to the desert in it?#$b#What? Don't look at me like that! The desert is full of interesting history and artifacts!$6",
     "cc_Bridge": "Have you been to that quarry up in the mountains yet, friend? Please do let me know what you find there.#$b#I'd go there and gather some gemstones myself, but I'm afraid I don't have the upper body strength to swing a pickaxe.$7",
@@ -205,9 +212,20 @@
     "GreenRainFinished": "Ahh, what a lovely day yesterday was. I feel so energised!",
     "GreenRain_2": "What did you say this was called? Green rain?#$b#I really must read up more on environmental magic at some point. I'd love to know if there's a way to tap into this power...",
 
-    //Honeyfuggle CTs
-    "Vinilla.Honeyfuggle_Arrival": "Hello again, friend! I've settled into my tent very nicely, I think.#$b#I can already tell this is quite the peaceful little town, I'm lucky that this is the place I decided to disemark at.",
+    //Honeyfuggle
+    "Vinilla.Honeyfuggle_Arrival": "Hello again, friend! I've settled into my tent very nicely, I think.#$b#I can already tell this is quite the peaceful little town, I'm lucky that this is the place I decided to disembark at.",
     "Vinilla.Honeyfuggle_MagicTrick": "I hope you enjoyed that little demonstration in the saloon!$1#$b#Oh, if you're worried about me reading your mind again in the future, don't be! Such a feat typically costs me much more power than its worth.",
+
+    //Other mods
+    "SterlingDrugs": "That guy that works at Pierre's is a strange fellow, isn't he? I don't know what he's up to but something tells me to stay out of it...$3", //new in 1.1.0
+    "keahi_prank": "*sniff sniff*$3#$b#Oh! That's such a... distinctive fragrance you're wearing! It really sets you apart, heheh...$9", //new in 1.1.0
+    "ButteredJorts": "Buttering a cat is such a hilarious thing to do that I'm kicking myself for not coming up with it first.$6#$b#Oh, is that something you're not supposed to do? It's bad for the cat?$9#$b#I mispoke, I'm kicking myself because I haven't done more to speak out against the cat-buttering epidemic that is taking over this town!", //new in 1.1.0
+    "JortsZoomies": "I love having Jorts tell me about his Joja-pranking antics!$8#$e#Hm, I wonder if I could recruit him... Having a feline accomplice could be handy...$3", //new in 1.1.0
+    "luauBest": "Goodness me, I absolutely stuffed myself with that soup. It was so much better than I was expecting it to be though, and it's unlikely that exact combination of ingredients will ever be recreated, so no regrets from me!", //new in 1.1.0
+    "luauShorts": "Was it you who put those pants in the soup?!#$b#You are such a fiend! That was hilarious!", //new in 1.1.0
+    "luauPoisoned": "Hmph. I'm a bit miffed about the poisoned soup thing. I was looking forward to the free meal more than I realised!$2", //new in 1.1.0
+    "leoValleyArrival": "I've done a few magic tricks for Leo to show him I was friendly. Really basic stuff honestly, like pulling a coin out from behind his ear, but he was absolutely amazed at every single one of them!$1#$e#I don't think he's ever seen stuff like that before, makes you a bit sad if you think about it.$2", //new in 1.1.0
+    "islandResortUnlocked": "An island resort? I think I may check it out. I've never been somewhere tropical~", //new in 1.1.0
 
 //Conversation topics - vanilla NPCs
     //Intro event
@@ -250,6 +268,7 @@
     "Vinilla.Honeyfuggle_Departure.George": "Huh? Honeyfuggle left town?#$b#Pah, good riddance! Looking at those outrageous colors made my eyes hurt.",
     
 //Festivals
+    //Vanilla
     "EggFestival": "All of these pastel colours are very soothing.$1#$b#That boiled egg that I hid under the mayor's truck? Not quite as soothing.$8",
     "EggFestival2": "I'm not really a fan of regular eggs, so my entire meal more or less consisted of chocolate eggs. It was definitely worth the inevitable stomach ache.",
 
@@ -275,6 +294,11 @@
     "WinterStar": "I'm here to join in on the general festivities and positive vibes, but I'm afraid I won't be participating in the gift exchange.#$b#I've got my reasons, but nonetheless I hope you get something nice!",
     "WinterStar.Solstice": "I'm here to join in on the general festivities and positive vibes, but I'm afraid I won't be participating in the food exchange.#$b#I've got my reasons... mainly that I don't have a kitchen... but nonetheless I hope you get something tasty!",
     "WinterStar2": "I can sort of make my own hot cocoa with my campfire, but the stuff that Gus makes is simply on another level. Perhaps I could sweet talk him into giving me his recipe?~",
+
+    //Modded
+    "RidgesideGathering": "Do you think this concert will have the right energy for crowdsurfing? I've always thought it would be quite fun...", //new in 1.1.0
+    "RidgesideGathering.NBStall": "I'm the captain of team NB's faction in the prank war. Our numbers may be small but our penchant for chaos is not!$1", //new in 1.1.0, Honeyfuggle stands at the non-binary stall added by Sunberry Village
+    "EmberOfResolutions": "Doesn't it just make you feel so warm and fuzzy to see everyone gathering together and reminiscing on a year gone by?$4#$b#Oh, I'm not one for reminiscing myself, don't really have much that's worth remembering. Always looking forward to the future, hahah!", //new in 1.1.0
 
 //Movie reactions
     //Brave Little Sapling

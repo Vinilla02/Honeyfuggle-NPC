@@ -99,19 +99,6 @@
             }
         },
 
-        //Identity tokens
-        {
-            "Name": "IdentityKnown",
-            "Value": false
-        },
-        {
-            "Name": "IdentityKnown",
-            "Value": true,
-            "When": {
-                "HasSeenEvent": "{{ModId}}_8Heart"
-            }
-        },
-
         //Schedule randomization tokens
         //Alone time days
         {
@@ -236,6 +223,19 @@
             "Value": ".Lenny",
             "When": {
                 "HasMod": "Airyn.LennysPrank"
+            }
+        },
+
+        //Ridgeside Gathering/Sunberry Village non-binary stall
+        {
+            "Name": "GatheringPosition",
+            "Value": "64 41 right"
+        },
+        {
+            "Name": "GatheringPosition",
+            "Value": "135 53 down",
+            "When": {
+                "HasMod": "skellady.SBVCP"
             }
         }
     ],

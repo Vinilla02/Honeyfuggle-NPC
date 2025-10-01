@@ -64,7 +64,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
-                    "Value": "{{Honeyfuggle}} 34 47 right",
+                    "Value": "{{Honeyfuggle}} 35 42 right",
                     "Delimiter": "/"
                 }
             ],
@@ -192,6 +192,52 @@
             }
         },
         {
+            "LogName": "Ridgeside Gathering setup",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall20",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Honeyfuggle}} {{GatheringPosition}}",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Honeyfuggle}} 60 42 right",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Honeyfuggle}} {{GatheringPosition}}",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Honeyfuggle}} 60 42 right",
+                    "Delimiter": "/"
+                },
+            ],
+            "When": {
+                "HasMod": "Rafseazz.RSVCP",
+                "HasSeenEvent": "{{ModId}}_Introduction"
+            },
+        },
+        {
+            "LogName": "Ridgeside Gathering dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall20",
+            "Entries": {
+                "{{Honeyfuggle}}": "$query {{HasMod|contains=skellady.SBVCP}}#{{i18n:RidgesideGathering.NBStall}}|{{i18n:RidgesideGathering}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            },
+        },
+        {
             "LogName": "Spirit's Eve setup",
             "Action": "EditData",
             "Target": "Data/Festivals/fall27",
@@ -218,7 +264,7 @@
             "Action": "EditData",
 			"Target": "Data/Festivals/fall27",
             "Entries": {
-                "{{Honeyfuggle}}": "{{i18n:SpiritsEve.{{IdentityKnown}}}}",
+                "{{Honeyfuggle}}": "$query PLAYER_HAS_SEEN_EVENT Current Vinilla.Honeyfuggle_8Heart#{{i18n:SpiritsEve.true}}|{{i18n:SpiritsEve.false}}",
                 "{{Honeyfuggle}}_y2": "{{i18n:SpiritsEve2}}"
             }
         },
@@ -295,6 +341,52 @@
                 "{{Honeyfuggle}}": "{{i18n:WinterStar{{Solstice}}}}",
                 "{{Honeyfuggle}}_y2": "{{i18n:WinterStar2}}"
             }
+        },
+        {
+            "LogName": "Ember of Resolutions setup",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters"],
+                    "Value": "{{Honeyfuggle}} 36 44 left",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters"],
+                    "Value": "{{Honeyfuggle}} 33 39 right",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2"],
+                    "Value": "{{Honeyfuggle}} 36 44 left",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters_y2"],
+                    "Value": "{{Honeyfuggle}} 33 39 right",
+                    "Delimiter": "/"
+                },
+            ],
+            "When": {
+                "HasMod": "Rafseazz.RSVCP",
+                "HasSeenEvent": "{{ModId}}_Introduction"
+            },
+        },
+        {
+            "LogName": "Ember of Resolutions dialogue",
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter28",
+            "Entries": {
+                "{{Honeyfuggle}}": "{{i18n:EmberOfResolutions}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            },
         }
     ]
 }

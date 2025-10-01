@@ -90,7 +90,7 @@
             }
         },
         {
-            "LogName": "Library events",
+            "LogName": "Library events - non-SVE",
             "Action": "EditData",
             "Target": "Data/Events/ArchaeologyHouse",
             "Entries": {
@@ -110,10 +110,39 @@
                 /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_6Heart.11}}\"/emote {{Honeyfuggle}} 28/speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_6Heart.12}}\"
                 /speak Gunther \"{{i18n:{{ModId}}_6Heart.13}}\"
                 /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_6Heart.14}}\"/pause 400/faceDirection farmer 2/emote farmer 40/pause 500/end"
+            },
+            "When": {
+                "HasMod|contains= FlashShifter.StardewValleyExpandedCP": false
             }
         },
         {
-            "LogName": "Forest events",
+            "LogName": "Library events - SVE",
+            "Action": "EditData",
+            "Target": "Data/Events/ArchaeologyHouse",
+            "Entries": {
+                //Six heart event - has seen four heart event
+                "{{ModId}}_6Heart/Friendship {{Honeyfuggle}} 2000/SawEvent {{ModId}}_4Heart": "libraryTheme/7 11/farmer 3 14 0 {{Honeyfuggle}} 8 10 0 GuntherSilvian 4 8 2 Elliott 10 10 2 Penny 16 9 0/showFrame Elliott 33/skippable/pause 500
+                /playSound doorClose/pause 500/advancedMove Penny true 2 0 4 4500 -2 0 4 6000/advancedMove farmer false 0 -2 5 0 0 -4 1 1000
+                /move {{Honeyfuggle}} -4 0 0/pause 500/speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_6Heart.0}}\"
+                /speak GuntherSilvian \"{{i18n:{{ModId}}_6Heart.1.{{Random:Neutral,Fem,Masc}}}}\"
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_6Heart.2}}\"/faceDirection {{Honeyfuggle}} 1/pause 100/addObject 5 8 Book_Diamonds 1/playSound dwop/pause 500/faceDirection {{Honeyfuggle}} 0
+                /speak GuntherSilvian \"{{i18n:{{ModId}}_6Heart.3}}\"
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_6Heart.4}}\"
+                /speak GuntherSilvian \"{{i18n:{{ModId}}_6Heart.5}}\"
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_6Heart.6}}\"/pause 500/emote {{Honeyfuggle}} 40/pause 300/speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_6Heart.7}}\"
+                /emote GuntherSilvian 28/speak GuntherSilvian \"{{i18n:{{ModId}}_6Heart.8}}\"
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_6Heart.9}}\"
+                /speak GuntherSilvian \"{{i18n:{{ModId}}_6Heart.10}}\"/pause 250
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_6Heart.11}}\"/emote {{Honeyfuggle}} 28/speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_6Heart.12}}\"
+                /speak GuntherSilvian \"{{i18n:{{ModId}}_6Heart.13}}\"
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_6Heart.14}}\"/pause 400/faceDirection farmer 2/emote farmer 40/pause 500/end"
+            },
+            "When": {
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
+            }
+        },
+        {
+            "LogName": "Forest events - non-SVE",
             "Action": "EditData",
             "Target": "Data/Events/Forest",
             "Entries": {
@@ -175,6 +204,77 @@
                 /move {{Honeyfuggle}} 3 0 1/animate Wizard true true 100 19/playSound warrior/pause 1500/playSound wand/screenFlash .8/warp {{Honeyfuggle}} -100 -100
                 /pause 600/stopAnimation Wizard 12/pause 1000/speak Wizard \"{{i18n:{{ModId}}_10HeartFork.5}}\"/pause 1000
                 /end invisible {{Honeyfuggle}}"
+            },
+            "When": {
+                "HasMod|contains= FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "LogName": "Forest events - SVE",
+            "Action": "EditData",
+            "Target": "Data/Events/Forest",
+            "Entries": {
+                //Ten heart event - has seen 8 heart event, time must be between 9:00pm and 2:00am, not the first week or last day of any season, and, optionally, has completed the Magic Ink quest
+                "{{ModId}}_10Heart/Friendship {{Honeyfuggle}} 2000/SawEvent {{ModId}}_8Heart/Time 2100 2600/!DayOfMonth 1 2 3 4 5 6 7 28{{Immersive}}": "nightTime/9 40/{{Honeyfuggle}} 6 37 0 farmer 15 41 3 Wizard -100 -100 2/addConversationTopic {{ModId}}_Departure
+                /move farmer -5 0 3/move farmer 0 -2 0
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.0}}\"/emote farmer 16
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.1}}\"/pause 1500/emote farmer 8
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.2{{RazzyGender}}}}\"/emote farmer 28
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.3{{RazzyGender}}}}\"
+                /question fork1 \"{{i18n:{{ModId}}_10Heart.4}}#{{i18n:{{ModId}}_10Heart.5}}#{{i18n:{{ModId}}_10Heart.6}}\"/fork {{ModId}}_GoHome
+                /playMusic {{ModId}}_Heist/speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.7{{RazzyGender}}}}\"
+                /move {{Honeyfuggle}} 4 0 0 farmer 0 4 2/move {{Honeyfuggle}} 0 2 2 farmer 2 0 1 true/pause 800/globalFade 0.01/viewport -1000 -1000
+                /changeLocation WizardHouse/warp farmer -100 -100/warp {{Honeyfuggle}} -100 -100/viewport 7 16/faceDirection farmer 0/faceDirection {{Honeyfuggle}} 0/pause 800
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.8{{RazzyGender}}}}\"/jump {{Honeyfuggle}} 10/warp {{Honeyfuggle}} 9 11/move {{Honeyfuggle}} 0 2 2/pause 100/move {{Honeyfuggle}} -1 0 2/pause 1000
+                /jump farmer 10/warp farmer 9 11/move farmer 0 2 2/pause 500/faceDirection farmer 3/pause 200/faceDirection {{Honeyfuggle}} 1/pause 100
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.9}}\"
+                /move {{Honeyfuggle}} 0 7 2/move {{Honeyfuggle}} 3 0 1/pause 100/playSound sandyStep/pause 1000/playSound sandyStep/pause 500/move {{Honeyfuggle}} 0 1 1/pause 200/playSound sandyStep/pause 1000/playSound jingle1
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.10}}\"/pause 500/emote {{Honeyfuggle}} 40
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.11}}\"/move {{Honeyfuggle}} -5 0 0/move {{Honeyfuggle}} 0 -6 3/emote {{Honeyfuggle}} 56/move farmer 0 2 3/faceDirection {{Honeyfuggle}} 1
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.12}}\"/emote farmer 28
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.13}}\"/move {{Honeyfuggle}} -4 0 0/pause 500
+                /playSound coldSpell/pause 400/playSound coldSpell/pause 2000
+                /showFrame Wizard 16/playSound wand/screenFlash .8/warp Wizard 7 12/textAboveHead Wizard \"{{i18n:{{ModId}}_10Heart.14}}\"/textAboveHead {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.15}}\"/jump {{Honeyfuggle}}/jump farmer/faceDirection {{Honeyfuggle}} 1/pause 1000/move Wizard 0 3 3
+                /playMusic WizardSong/speak Wizard \"{{i18n:{{ModId}}_10Heart.16}}\"
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.17{{RazzyGender}}}}\"
+                /speak Wizard \"{{i18n:{{ModId}}_10Heart.18}}\"
+                /emote {{Honeyfuggle}} 28/speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.19}}\"
+                /speak Wizard \"{{i18n:{{ModId}}_10Heart.20}}\"
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.21}}\"
+                /speak Wizard \"{{i18n:{{ModId}}_10Heart.22}}\"
+                /emote {{Honeyfuggle}} 60/speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.23{{RazzyGender}}}}\"
+                /speak Wizard \"{{i18n:{{ModId}}_10Heart.24}}\"
+                /move {{Honeyfuggle}} 3 0 1/speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.25}}\"/pause 300
+                /animate Wizard true true 100 19/playSound warrior/pause 1500/playSound wand/screenFlash .8/warp {{Honeyfuggle}} -100 -100
+                /pause 600/stopAnimation Wizard 12/pause 1000/faceDirection Wizard 1/speak Wizard \"{{i18n:{{ModId}}_10Heart.26}}\"
+                /jump farmer/pause 1000/move farmer 0 1 2/move farmer -1 0 3/move farmer 0 9 2 true/faceDirection Wizard 2/pause 1500/globalFade 0.01/viewport -1000 -1000/pause 1000
+                /message \"{{i18n:{{ModId}}_10Heart.27}}\"/pause 1000
+                /end invisible {{Honeyfuggle}}",
+
+                //Fork of ten heart - farmer chooses to go home
+                "{{ModId}}_GoHome": "mail {{ModId}}_Skipped10Heart/playMusic {{ModId}}_Heist/speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10HeartFork.0}}\"/move farmer 0 3 2 true/pause 800/globalFade 0.01/viewport -1000 -1000/warp farmer -100 -100/pause 500
+                /changeLocation WizardHouse/warp {{Honeyfuggle}} -100 -100/viewport 7 16/pause 1200
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10HeartFork.1{{RazzyGender}}}}\"/jump {{Honeyfuggle}} 10/warp {{Honeyfuggle}} 9 11/move {{Honeyfuggle}} 0 2 2/pause 1000
+                /move {{Honeyfuggle}} 0 7 2/move {{Honeyfuggle}} 2 0 1/pause 100/playSound sandyStep/pause 1000/playSound sandyStep/pause 500/move {{Honeyfuggle}} 0 1 1/pause 200/playSound sandyStep/pause 1000/playSound jingle1
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10HeartFork.2}}\"/pause 500/emote {{Honeyfuggle}} 40
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10HeartFork.3}}\"/move {{Honeyfuggle}} -5 0 0/move {{Honeyfuggle}} 0 -6 3/emote {{Honeyfuggle}} 56/pause 300/move {{Honeyfuggle}} -4 0 0/pause 1000
+                /playSound coldSpell/pause 400/playSound coldSpell/pause 2000
+                /showFrame Wizard 16/playSound wand/screenFlash .8/warp Wizard 7 15/textAboveHead Wizard \"{{i18n:{{ModId}}_10Heart.14}}\"/textAboveHead {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.15}}\"/jump {{Honeyfuggle}}/faceDirection {{Honeyfuggle}} 1/faceDirection Wizard 3/pause 1000
+                /playMusic WizardSong/speak Wizard \"{{i18n:{{ModId}}_10Heart.16}}\"
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10HeartFork.4{{RazzyGender}}}}\"
+                /speak Wizard \"{{i18n:{{ModId}}_10Heart.18}}\"
+                /emote {{Honeyfuggle}} 28/speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.19}}\"
+                /speak Wizard \"{{i18n:{{ModId}}_10Heart.20}}\"
+                /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.21}}\"
+                /speak Wizard \"{{i18n:{{ModId}}_10Heart.22}}\"
+                /emote {{Honeyfuggle}} 60/speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.23{{RazzyGender}}}}\"
+                /speak Wizard \"{{i18n:{{ModId}}_10Heart.24}}\"
+                /move {{Honeyfuggle}} 3 0 1/animate Wizard true true 100 19/playSound warrior/pause 1500/playSound wand/screenFlash .8/warp {{Honeyfuggle}} -100 -100
+                /pause 600/stopAnimation Wizard 12/pause 1000/speak Wizard \"{{i18n:{{ModId}}_10HeartFork.5}}\"/pause 1000
+                /end invisible {{Honeyfuggle}}"
+            },
+            "When": {
+                "HasMod": "FlashShifter.StardewValleyExpandedCP"
             }
         },
         {

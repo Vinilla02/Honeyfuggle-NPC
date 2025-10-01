@@ -33,7 +33,8 @@
             "When": {
                 "HoneyfuggleInValley": true
             },
-            "Update": "OnLocationChange"
+            "Update": "OnLocationChange",
+            "Priority": "Late + 20"
         },
         {
             "LogName": "Map strings",
@@ -102,6 +103,6 @@
                     "MarkActionApplied": false
                 }
             }
-        }
+        },
     ]
 }

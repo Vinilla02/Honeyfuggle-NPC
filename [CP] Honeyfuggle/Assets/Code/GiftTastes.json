@@ -6,12 +6,12 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "{{Honeyfuggle}}": "{{i18n:love}}/66 68 104 340 221/{{i18n:like}}/124 125 121 108 245/{{i18n:dislike}}/196 609 648/{{i18n:hate}}/110 111 112 105 190 250 264/{{i18n:neutral}}/769 768/"
-                //Love: Amethyst, Topaz, Elvish Jewelry, Honey, Pink Cake
-                //Like: Golden Mask, Golden Relic, Dwarvish Helm, Rare Disc, Sugar
-                //Dislike: Salad, Radish Salad, Coleslaw
-                //Hate: Rusty Spoon, Rusty Spur, Rusty Cog, Chewing Stick, Cauliflower, Kale, Radish
-                //Neutral: Void Essence, Solar Essence
+                "{{Honeyfuggle}}": "{{i18n:love}}/66 68 104 340 221 Wildflour.AtelierGoods_Pelican_Fog_Tea Wildflour.AtelierGoods_Honey_Lavender_Cookies Morghoula.AlchemistryCP_BlessingFromBeyond appleseed.BCP.PlushBee/{{i18n:like}}/124 125 121 108 245 Wildflour.AtelierGoods_Butter Morghoula.AlchemistryCP_ArcaneEye Morghoula.AlchemistryCP_ManaOrb appleseed.BCP.CurioBook appleseed.BCP.PetrichorHeart/{{i18n:dislike}}/264 196 609 648 FlashShifter.StardewValleyExpandedCP_Butter/{{i18n:hate}}/110 111 112 105 190 250 Cornucopia_Lettuce/{{i18n:neutral}}/769 768 Cornucopia_Butter Rafseazz.RSVCP_Honey_Glazed_Salad appleseed.BCP.PlushWizard/"
+                //Love: Amethyst, Topaz, Elvish Jewelry, Honey, Pink Cake, WAG Pelican Fog Tea, WAG Honey Lavender Cookies, Alchemistry Blessing from Beyond, Baubles Plush Bee
+                //Like: Golden Mask, Golden Relic, Dwarvish Helm, Rare Disc, Sugar, WAG Butter, Alchemistry Eye of the Arcane, Alchemistry Mana Orb, Baubles Magic Tinkerer's Tome, Baubles Petrichor Heart
+                //Dislike: Radish, Salad, Radish Salad, Coleslaw, SVE Butter
+                //Hate: Rusty Spoon, Rusty Spur, Rusty Cog, Chewing Stick, Cauliflower, Kale, Cornucopia Lettuce
+                //Neutral: Void Essence, Solar Essence, Cornucopia Butter, RSV Honey Glazed Salad, Baubles Plush Wizard
             }
         },
         {

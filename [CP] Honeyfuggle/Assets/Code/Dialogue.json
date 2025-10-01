@@ -113,6 +113,17 @@
 				"{{ModId}}_Arrival": "{{i18n:{{ModId}}_Arrival}}",
 				"{{ModId}}_MagicTrick": "{{i18n:{{ModId}}_MagicTrick}}",
 
+				//Other mods
+				"SterlingDrugs": "{{i18n:SterlingDrugs}}",
+				"keahi_prank": "{{i18n:keahi_prank}}",
+				"ButteredJorts": "{{i18n:ButteredJorts}}",
+				"JortsZoomies": "{{i18n:JortsZoomies}}",
+				"luauBest": "{{i18n:luauBest}}",
+				"luauShorts": "{{i18n:luauShorts}}",
+				"luauPoisoned": "{{i18n:luauPoisoned}}",
+				"leoValleyArrival": "{{i18n:leoValleyArrival}}",
+				"islandResortUnlocked": "{{i18n:islandResortUnlocked}}",
+
 			//Gifting and reactions
 				"AcceptBirthdayGift_Loved": "{{i18n:AcceptBirthdayGift_Loved}}",
 				"AcceptBirthdayGift_Positive": "{{i18n:AcceptBirthdayGift_Positive}}",
@@ -127,6 +138,13 @@
 				"AcceptGift_(O)112": "{{i18n:AcceptGift_JunkArtifact}}",
 				"AcceptGift_(O)105": "{{i18n:AcceptGift_JunkArtifact}}",
 				"AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_(O)StardropTea}}",
+				"AcceptGift_lavender_item": "{{i18n:AcceptGift_lavender_item}}",
+				"AcceptGift_(O)Wildflour.AtelierGoods_Lavender_Doughnuts": "{{i18n:AcceptGift_(O)Wildflour.AtelierGoods_Lavender_Doughnuts}}",
+				"AcceptGift_(O)Wildflour.AtelierGoods_Honey_Lavender_Cookies": "{{i18n:AcceptGift_(O)Wildflour.AtelierGoods_Honey_Lavender_Cookies}}",
+				"AcceptGift_(O)Rafseazz.RSVCP_Honey_Glazed_Salad": "{{i18n:AcceptGift_(O)Rafseazz.RSVCP_Honey_Glazed_Salad}}",
+				"AcceptGift_(O)appleseed.BCP.PlushBee": "{{i18n:AcceptGift_(O)appleseed.BCP.PlushBee}}",
+				"AcceptGift(O)appleseed.BCP.CurioBook": "{{i18n:AcceptGift(O)appleseed.BCP.CurioBook}}",
+				"AcceptGift(O)appleseed.BCP.PlushWizard": "{{i18n:AcceptGift(O)appleseed.BCP.PlushWizard}}",
 				"RejectMovieTicket": "{{i18n:RejectMovieTicket}}",
 				"RejectBouquet_NotDatable": "{{i18n:RejectBouquet}}",
 				"DumpsterDiveComment": "{{i18n:DumpsterDiveComment}}",
