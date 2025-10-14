@@ -3,7 +3,7 @@
     "Changes":
     [
         {
-            "LogName": "Load animations",
+            "LogName": "Add animations",
             "Action": "EditData",
             "Target": "Data/animationDescriptions",
             "Entries": {
@@ -13,7 +13,7 @@
             }
         },
         {
-            "LogName": "Load music track",
+            "LogName": "Add music track",
             "Action": "EditData",
             "Target": "Data/AudioChanges",
             "Entries": {
@@ -27,11 +27,118 @@
             }
         },
         {
-            "LogName": "Load mail",
+            "LogName": "Add mail",
             "Action": "EditData",
             "Target": "Data/Mail",
             "Entries": {
                 "{{ModId}}_Skipped10Heart": "{{i18n:{{ModId}}_Skipped10Heart{{RazzyGender}}}}[#]{{i18n:{{ModId}}_Skipped10Heart_Title}}"
+            }
+        },
+
+        //NPC Map Locations
+        {
+            "LogName": "Make Honeyfuggle invisible",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_IndefiniteInvisibleHoneyfuggle": {
+                    "Id": "{{ModId}}_IndefiniteInvisibleHoneyfuggle",
+                    "Trigger": "DayStarted",
+                    "Action": "SetNPCInvisible {{Honeyfuggle}} 9999",
+                    "Condition": "!PLAYER_HAS_SEEN_EVENT Any {{ModId}}_Introduction",
+                    "MarkActionApplied": true
+                },
+                "{{ModId}}_IndefiniteVisibleHoneyfuggle": {
+                    "Id": "{{ModId}}_VisibleHoneyfuggle",
+                    "Trigger": "DayStarted",
+                    "Action": "SetNPCVisible {{Honeyfuggle}}",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_Introduction",
+                    "MarkActionApplied": true
+                },
+                "{{ModId}}_MonthlyInvisibleHoneyfuggle": {
+                    "Id": "{{ModId}}_MonthlyInvisibleHoneyfuggle",
+                    "Trigger": "DayStarted",
+                    "Action": "SetNPCInvisible {{Honeyfuggle}} 1",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_10Heart, !DAY_OF_MONTH 1 2 3 4 5 6 7",
+                    "MarkActionApplied": false
+                }
+            }
+        },
+        {
+            "LogName": "Fix NPC Map Locations icon",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+            "Entries": {
+                "{{Honeyfuggle}}": {
+                    "MarkerCropOffset": 2
+                }
+            },
+            "When": {
+                "HasMod": "Bouhm.NPCMapLocations"
+            }
+        },
+
+        //Central Station
+        {
+            "LogName": "Central Station tourist",
+            "Action": "EditData",
+            "Target": "Mods/Pathoschild.CentralStation/Tourists",
+            "Entries": {
+                "{{ModId}}": {
+                    "FromMap": "{{InternalAssetKey: Assets/Maps/CentralStation.tmx}}",
+                    "Tourists": {
+                        "{{Honeyfuggle}}_spring": {
+                            "Index": 0,
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_10Heart, !DAY_OF_MONTH 1 2 3 4 5 6 7, SEASON spring"
+                        },
+                        "{{Honeyfuggle}}_summer": {
+                            "Index": 1,
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Any Vinilla.Honeyfuggle_10Heart, !DAY_OF_MONTH 1 2 3 4 5 6 7, SEASON summer"
+                        },
+                        "{{Honeyfuggle}}_fall": {
+                            "Index": 2,
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_10Heart, !DAY_OF_MONTH 1 2 3 4 5 6 7, SEASON fall"
+                        },
+                        "{{Honeyfuggle}}_winter": {
+                            "Index": 3,
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Any {{ModId}}_10Heart, !DAY_OF_MONTH 1 2 3 4 5 6 7, SEASON winter"
+                        }
+                    }
+                }
+            },
+            "When": {
+                "HasMod": "Pathoschild.CentralStation"
+            }
+        },
+        {
+            "LogName": "Load Central Station file",
+            "Action": "Load",
+            "Target": "Mods/Vinilla.Honeyfuggle/CS",
+            "FromFile": "Assets/Code/blank.json",
+            "Priority": "Low"
+        },
+        {
+            "LogName": "Add Central Station trigger action",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_CS": {
+                    "Id": "{{ModId}}_CS",
+                    "Trigger": "DayStarted",
+                    "MarkActionApplied": false,
+                    "Actions": [
+                        "Spiderbuttons.BETAS_WritePlayerModData {{ModId}}_CS 1",
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "Add Central Station dialogue",
+            "Action": "EditData",
+            "Target": "Mods/Vinilla.Honeyfuggle/CS",
+            "Entries": {
+                "CS.1": "{{i18n:CentralStation.1}}#$action Spiderbuttons.BETAS_WritePlayerModData Vinilla.Honeyfuggle_CS 2",
+                "CS.2": "{{i18n:CentralStation.2}}#$action Spiderbuttons.BETAS_RemovePlayerModData Vinilla.Honeyfuggle_CS"
             }
         }
     ]

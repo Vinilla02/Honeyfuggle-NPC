@@ -10,7 +10,7 @@
             "FromFile": "Assets/Maps/Custom_Honeyfuggle_Tent.tmx"
         },
         {
-            "LogName": "Load tent location",
+            "LogName": "Add tent location",
             "Action": "EditData",
             "Target": "Data/Locations",
             "Entries": {
@@ -24,7 +24,7 @@
             }
         },
         {
-            "LogName": "Load tent in forest",
+            "LogName": "Add tent to forest",
             "Action": "EditMap",
             "Target": "Maps/Forest",
             "FromFile": "Assets/Maps/Camp.tmx",

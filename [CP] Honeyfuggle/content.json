@@ -250,7 +250,7 @@
         {
             "LogName": "Blank JSON - Wizard",
             "Action": "Load",
-            "Target": "Strings/Schedules/Wizard, Characters/Schedules/Wizard",
+            "Target": "Strings/Schedules/Wizard, Characters/schedules/Wizard",
             "FromFile": "Assets/Code/blank.json",
             "Priority": "Low"
         },
@@ -328,7 +328,7 @@
         {
             "LogName": "Load misc code file",
             "Action": "Include",
-            "FromFile": "Assets/Code/Misc.json" //Includes animations, music, and mail
+            "FromFile": "Assets/Code/Misc.json" //Includes animations, music, mail, etc.
         }
     ]
 }

@@ -43,7 +43,7 @@
         {
             "LogName": "Wizard schedule edit",
             "Action": "EditData",
-            "Target": "Characters/Schedules/Wizard",
+            "Target": "Characters/schedules/Wizard",
             "Entries": {
                 "Sat": "a1000 Forest 5 35 1 \"Strings\\Schedules\\Wizard:{{ModId}}_Wizard\"/1500 WizardHouse 3 17 2"
             },

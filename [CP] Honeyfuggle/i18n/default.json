@@ -26,20 +26,29 @@
     "Thu": "Such a beautiful, peaceful place this is. I'm rather lucky to be spending a nice long holiday here.#$e#After all, I haven't even seen a single copper here!$9", //Note for translators: copper is a British slang term for police officer
     "Fri": "I'm surprised the villagers haven't given me trouble for setting up my tent in the forest. I'll have to do something to say 'thanks'!$4",
     "Sat": "Hello, friend!$1#$e#...$3#$b#You know, if you need any fashion advice, I'd be happy to help you out anytime.",
+    "spring_Tue": "The critters in this place are so adorable. It makes me want to bite something!$1", //new in 1.2.0
+    "spring_Fri": "I love the sound of passing trains at night. If it weren't so dangerous, I'd have probably set up my tent right next to the railroad rather than the forest.", //new in 1.2.0
     "summer_Sun": "I'm... a bit too much of a mess to stick to the same rote schedule every week. I pick out places to visit from day to day based on vibes.$7",
+    "fall_Tue": "I quite like people-watching. Do you?#$b#It can be fun to learn what everyone's mannerisms are.", //new in 1.2.0
+    "fall_Fri": "You look tired, friend. Is it because of the busy harvest season?", //new in 1.2.0
+    "winter_Tue": "Are you making lots of friends here, @? I can give you tips if you're struggling!#$e#Making the right friends can definitely prove beneficial, I'd highly recommend it~$8", //new in 1.2.0
+    "winter_Fri": "I've learned that I'm far from the only unusual character here in the valley. It puts me at ease, despite the quizzical looks I sometimes get.#$b#Quizzical looks are far from the worst treatment I've received, after all!$6", //new in 1.2.0
 
     //2 heart
     "Sun2": "Sometimes I wish I could sleep for a week straight. Bleh.$2",
-    "Mon2": "Urgh, I'm so hungry but I don't go food shopping until tomorrow.$6#$e#I could really go for a pink cake right now...%revealtaste:Vinilla.Honeyfuggle_Honeyfuggle:221",
+    "Mon2": "Urgh, I'm so hungry but I don't go food shopping until tomorrow.$6#$e#I could really go for a pink cake right now...", //changed in 1.2.0
     "Tue2": "Hello, friend! Heard any interesting gossip through the cherryvine lately?#$b#Caroline and Jodi are always on the hunt for new conversation topics and I'd love to provide them with some~",
     "Wed2": "I don't mind living in a tent. My 'lifestyle' dictates that I don't stay tied down to one particular place for very long.",
     "Thu2": "Tell me, @, what sort of things do folks here do for fun? I need some new ideas...$2",
     "Fri2": "Do you go to the library often? The book collection is a bit quaint compared to what I'm used to, but there are a few hidden gems in there.",
     "Sat2": "Linus has been very interested in me ever since I arrived in town, I think he feels a sense of camaraderie with me.#$b#I don't mind it actually, he's been teaching me some things about botany that I never learned about in my own education.",
-
+    "summer_Thu2": "I've never been the athletic type, but I wonder if I should give it a shot? Sports seems like one of the few things that someone can do for fun in a small town like this.", //new in 1.2.0
+    "fall_Wed2": "My tent has weathered a lot of misadventures over the years, and it definitely shows it, what with all the patches I've had to sew on.#$e#You're interested in hearing about those misadventures...? Well, they're not that interesting, really! Would probably bore you to death, haha.", //new in 1.2.0
+    "winter_Thu2": "I grew up in quite a large city, so adjusting to village life has been an interesting process.", //new in 1.2.0
+    
     //4 heart
     "Sun4": "I need lots of beauty rest today, @. Only wake me up if you suddenly find yourself with more money than you know what to do with.",
-    "Mon4": "Did you know that gems can hold large amounts of magic? It's similar to how sponges naturally soak up lots of water.#$b#As you may be able to guess, I'm particularly attracted to the effects of amethysts~%revealtaste:Vinilla.Honeyfuggle_Honeyfuggle:66",
+    "Mon4": "Did you know that gems can hold large amounts of magic? It's similar to how sponges naturally soak up lots of water.#$b#As you may be able to guess, I'm particularly attracted to the effects of amethysts~", //changed in 1.2.0
     "Tue4": "I've heard rumours that the mayor has a large amount of gold, used for some unknown project.#$b#I wonder where he keeps it?...",
     "Tue4.Marnie": "I've heard rumours that the mayor is funding some sort of unknown, elaborate art piece.#$b#I wonder what it is?...",
     "Tue4.Lenny": "I've heard rumours that the Ridgeside administrator is planning quite the elaborate prank on her brother.#$b#Now that's a role model that I can look up to.$8",
@@ -53,17 +62,24 @@
     "Fri4_Vinilla.Honeyfuggle_1": "Hm, then it appears we have more in common than I originally thought.$3",
     "Fri4_Vinilla.Honeyfuggle_2": "Must be a nice feeling, then!$1",
     "Sat4": "Marlon told me that the mines are infested with monsters. I was hoping to see if there were any useful artifacts in there but, eh, getting blood on my hands isn't my usual style.$2#$e#Maybe you can clear a path through for me at some point, hehe.",
+    "spring_Tue4": "You know, I figured out that Marnie and Lewis were an item within about a week of me coming to town.#$b#I'm not sure if that speaks to my superb observational skills or their lacklustre ability to hide it.$1", //new in 1.2.0
+    "fall_Fri4": "It's so unusual to me that most of the people in this town don't acknowledge the fact that there is magic all around them, let alone make good use of it.$2", //new in 1.2.0
+    "winter_Mon4": "My tent is pretty good at keeping warmth in, so winter isn't too bad for me, fortunately.$1#$b#Summer on the other hand...$5", //new in 1.2.0
 
     //6 heart
     "Sun6": "I'm sorry, @, I don't have much energy for chatting today. Maybe come back tomorrow?$3",
     "Mon6": "Yes, Honeyfuggle is my real name. Why do you seem so surprised?$2#$b#From my point of view, the names around these parts are quite quaint and basic!$8",
-    "Tue6": "Hehehe...$1#$b#Oh! Err, hi, @! Don't mind me!$9#$b#%They quickly shove their hands behind their back and give you a wide smile. There are flecks of purple glitter all over their clothing.",
+    "Tue6.Neutral": "Hehehe...$1#$b#Oh! Err, hi, @! Don't mind me!$9#$b#%They quickly shove their hands behind their back and give you a wide smile. There are flecks of purple glitter all over their clothing.", //fixed key in 1.2.0
+    "Tue6.Fem": "Hehehe...$1#$b#Oh! Err, hi, @! Don't mind me!$9#$b#%She quickly shoves her hands behind her back and gives you a wide smile. There are flecks of purple glitter all over her clothing.", //new in 1.2.0
+    "Tue6.Masc": "Hehehe...$1#$b#Oh! Err, hi, @! Don't mind me!$9#$b#%He quickly shoves his hands behind his back and gives you a wide smile. There are flecks of purple glitter all over his clothing.", //new in 1.2.0
     "Wed6": "(Sigh) I wish there were a way for me to know what's going on back home.$2#$b#Ah-- pretend you didn't hear that. Anything you wanted to chat about, @?",
     "Thu6": "Do you ever wonder if Gunther has a secret archive of artifacts somewhere in the library?#$b#He seems like the exact sort of person to keep lots of delicious secrets!$8",
     "Fri6": "There'll be no hard feelings if I ever decide to pull a (mostly) harmless prank on you, right?$1#$b#Hey, I've got to do *something* mischievous to keep myself entertained around here!$6",
     "Sat6": "Rasmodius won't let me take a look at his collection of arcane books.$5#$b#It honestly seems like he doesn't even want to lay a finger on them himself out of fear of damaging them.$6#$e#What's the point of owning books if you never use them?$6",
     "Sat6.Rasmodia": "Rasmodia won't let me take a look at her collection of arcane books.$5#$b#It honestly seems like she doesn't even want to lay a finger on them herself out of fear of damaging them.$6#$e#What's the point of owning books if you never use them?$6",
-    "spring_Mon6": "Foraging is a new thing for me, I didn't really need to do this 'rural living' stuff before I came here.#$b#I'm not too keen on getting my hands all dirty but it does save money so...",
+    "spring_Mon6": "Foraging is a new thing for me, I didn't really need to do this 'rural living' stuff before I came here.#$b#I'm not too keen on getting my hands all dirty, but it does save money so...",
+    "fall_Wed6": "Leah tried to get me to pose for a portrait recently, but it was so terribly hard to stay still!$2#$b#The way she acted at the end of the session gave me the feeling that there won't be a second one. Oops.$3", //new in 1.2.0
+    "winter_Tue6": "I like how quiet the town gets from the snow dampening all the sound.#$b#Not because I think it's serene or whatever, but because it makes getting away with little pranks a lot easier.$7", //new in 1.2.0
 
     //8 heart
     "Sun8": "Ugh, I'm so tired from all that socialising on Friday and Saturday... Of course I love the attention, but that doesn't mean I don't need time to recharge afterward.$6",
@@ -76,7 +92,7 @@
     "Fri8": "I wasn't planning to make any close friends when I arrived here, but I've got to admit I'd consider you one now.#$b#Thanks for sticking with me, @!$4",
     "Sat8": "I'm feeling so fidgety lately. I need something to do with my hands. I keep getting the temptation to pinch something off of Pierre's shelves but that won't really do much good for me, would it?$2",
     "spring_Tue8": "Do you struggle with allergies, @?#$b#You could get a prescription from Doctor Harvey or ask someone for a home remedy, maybe? Some of the concoctions seem a bit offputting but they swear that they work!",
-    "spring_Sat8.1": "Oh, am I glad that I've run into you, @!$9#$b#Here, take this, and DON'T let anyone know I gave it you.", //Honeyfuggle gifts either Sea Cucumber, Cherry Bomb, Slime, or Squid Ink
+    "spring_Sat8.1": "Oh, am I glad that I've run into you, @!$9#$b#Here, take this, and DON'T let anyone know I gave it you.", //Honeyfuggle gives the player either Sea Cucumber, Cherry Bomb, Slime, or Squid Ink
     "spring_Sat8.2": "K thanks byeee!$1", 
     "summer_Mon8": "I'm already ready for autumn. Summer fashion is fun and all, but I really cannot stand this horrible heat!$6#$e#At least being right next to the beach helps~",
     "summer_Sat8": "Air conditioning truly is one of the greatest modern inventions. Too bad I can't install a unit in my tent...$2#$b#Or can I? I'll have to ask Robin...",
@@ -169,18 +185,15 @@
     "AcceptGift_(O)Wildflour.AtelierGoods_Lavender_Doughnuts": "Lavender Dreams...! What a lovely name.$1#$b#Hm, why does that sound familiar...?", //new in 1.1.0: Wildflour Atelier Goods Lavender Dreams Doughnuts
     "AcceptGift_(O)Wildflour.AtelierGoods_Honey_Lavender_Cookies": "Two of my favourite flavours combined into one baked good!? This is amazing, @, thank you!$1", //new in 1.1.0: Wildflour Atelier Goods Honey Lavender Cookies
     "AcceptGift_(O)Rafseazz.RSVCP_Honey_Glazed_Salad": "??????$9#$b#Salad... but with honey on top... I am not sure how to process this information...$3", //new in 1.1.0: Ridgeside Village Honey Glazed Salad
+    "AcceptGift_(O)appleseed.BCP.CurioBook": "How curious, this reminds me of some of the textbooks I had to read in school. Perhaps I'll find something useful in here...$0", //new in 1.1.0: Baubles Magic Tinkerer's Tome ; fixed key in 1.2.0
     "AcceptGift_(O)appleseed.BCP.PlushBee": "A bee! In marketable plush form!? Oh my goodness that is the most adorable thing I've ever seen!!~$1", //new in 1.1.0:  Baubles Plush Bee
-    "AcceptGift(O)appleseed.BCP.CurioBook": "How curious, this reminds me of some of the textbooks I had to read in school. Perhaps I'll find something useful in here...$0", //new in 1.1.0: Baubles Magic Tinkerer's Tome
-    "AcceptGift(O)appleseed.BCP.PlushWizard": "Oh, it's... a wizard! Hahah... An interesting choice for a gift, I'll say.", //new in 1.1.0: Baubles Plush Wizard
+    "AcceptGift_(O)appleseed.BCP.PlushWizard": "Oh, it's... a wizard! Hahah... An interesting choice for a gift, I'll say.", //new in 1.1.0: Baubles Plush Wizard ; fixed key in 1.2.0
 
     //Other
     "MovieInvite_Invited": "Ooh, a film? I haven't been to a cinema in ages, I'd love to tag along!$1#$b#Go on ahead, I'll meet you there~",
     "RejectMovieTicket": "A film?... Sorry, I've got some very pressing business to attend to. Maybe another time?$2",
     "RejectBouquet": "Ooh, I appreciate the pretty flowers, but I'm afraid I'm not interested in seeing anyone right now.#$b#Don't worry, there's plenty of other lobsters in the sea!$8",
     "DumpsterDiveComment": "Hehe, that's a rather bold strategy, don't you think?$8",
-    "Resort_Entering": "How brilliant, not a single cloud in the sky today! The perfect weather for some island fun.$1",
-    "Resort": "Now this is the sort of place that I can get used to!#$b#If only there were a way that I could stay here longer, hehehe...$8",
-    "Resort_Leaving": "It's a shame we can't stay here longer. I'm sure there are lots of interesting things to find on this island.$2",
 
 //Strings
     //Schedule
@@ -199,6 +212,11 @@
     "Pictures": "Colorful notes covered in strange symbols and doodles are taped to the tent wall. What meaning these could possibly have is lost on you.",
     "Ticket": "A pile of miscellaneous objects, including a golden necklace and a train ticket, which reads \"Pale Horse Locomotive\".",
 
+    //Resort
+    "Resort_Entering": "How brilliant, not a single cloud in the sky today! The perfect weather for some island fun.$1",
+    "Resort": "Now this is the sort of place that I can get used to!#$b#If only there were a way that I could stay here longer, hehehe...$8",
+    "Resort_Leaving": "It's a shame we can't stay here longer. I'm sure there are lots of interesting things to find on this island.$2",
+
 //Conversation topics - Honeyfuggle
     //Vanilla
     "wonGrange": "Good job on taking home that blue ribbon at the fair, @!#$b#Apparently Pierre has won every year in recent history, so the newbie farmer dethroning him has caused quite the buzz amongst the townsfolk!$9",
@@ -206,7 +224,7 @@
     "cc_Bridge": "Have you been to that quarry up in the mountains yet, friend? Please do let me know what you find there.#$b#I'd go there and gather some gemstones myself, but I'm afraid I don't have the upper body strength to swing a pickaxe.$7",
     "cc_Complete": "You've done a bang-up job with restoring that old community center, @!$1#$b#I've got to admit the previous version was a bit more interesting to explore, but I can't deny how much the villagers love what you've done with it!",
     "movieTheater": "Have you seen the new movie theatre? It's gorgeous, isn't it?#$b#I heard a rumour that one of the former Joja cashiers got rehired at the concession counter there... I'm sure she has an interesting story!$8",
-    "pamHouseUprage": "@, is it true you were the one that paid for Pam and Penny's new house?!$9#$b#Wow, I had no idea you had THAT kind of money...",
+    "pamHouseUpgrade": "@, is it true you were the one that paid for Pam and Penny's new house?!$9#$b#Wow, I had no idea you had THAT kind of money...", //fixed key in 1.2.0
     "pamHouseUpgradeAnonymous": "Wow, I still can't believe how generous the people in this community are, giving Pam and Penny a brand new house like that.#$b#I'd love to know who it was... Perhaps I'll head up to the carpenter shop to investigate...",
     "GreenRain": "I can't say I've seen a phenomenon like this where I'm from.$3#$b#Perhaps this world is more magical than I originally thought...",
     "GreenRainFinished": "Ahh, what a lovely day yesterday was. I feel so energised!",
@@ -349,6 +367,10 @@
     "Vinilla.Honeyfuggle_Skipped10Heart": "Hello, friend!^By the time you're reading this, I'll be back in my own world. Yes, I'm from a different world, sorry I didn't mention it earlier!^^My heist was successful, initially, but I might have overstayed my welcome and got busted by Rasmodius anyway. He was more understanding about the situation than I thought he'd be though, saying I could've just asked him to borrow the artifact I needed to get back home. Oops.^^Anyway, I'll be coming back to visit Stardew Valley every so often, I think. I'd be sad if I was never able to see a friend like you again!^^ -Yours truly, Honeyfuggle",
     "Vinilla.Honeyfuggle_Skipped10Heart.Rasmodia": "Hello, friend!^By the time you're reading this, I'll be back in my own world. Yes, I'm from a different world, sorry I didn't mention it earlier!^^My heist was successful, initially, but I might have overstayed my welcome and got busted by Rasmodia anyway. She was more understanding about the situation than I thought she'd be though, saying I could've just asked her to borrow the artifact I needed to get back home. Oops.^^Anyway, I'll be coming back to visit Stardew Valley every so often, I think. I'd be sad if I was never able to see a friend like you again!^^ -Yours truly, Honeyfuggle",
     "Vinilla.Honeyfuggle_Skipped10Heart_Title": "Greetings From Another World",
+
+//Central Station
+    "CentralStation.1": "Fancy meeting you here, @! Trains are my preferred mode of transportation during my misadventures, so naturally I quite like this place!$1", //new in 1.2.0
+    "CentralStation.2": "There is something unusual about the station, don't you think? I probably shouldn't stick my nose into it, but it is rather tempting...$3", //new in 1.2.0
 
 //Events
     //Introduction
