@@ -17,7 +17,7 @@
                 /message \"{{i18n:{{ModId}}_Introduction.4}}\"
                 /quickQuestion #{{i18n:{{ModId}}_Introduction.5}}#{{i18n:{{ModId}}_Introduction.6}}#{{i18n:{{ModId}}_Introduction.7}}(break)emote {{Honeyfuggle}} 28\\speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_Introduction.8}}\"(break)emote {{Honeyfuggle}} 56\\speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_Introduction.9}}\"(break)emote {{Honeyfuggle}} 60\\speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_Introduction.10}}\"
                 /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_Introduction.11}}\"
-                /move farmer 2 0 3/ignoreMovementAnimation {{Honeyfuggle}} false/move {{Honeyfuggle}} 0 5 2/faceDirection farmer 2/faceDirection {{Honeyfuggle}} 0/emote {{Honeyfuggle}} 56/move {{Honeyfuggle}} 0 8 2
+                /move farmer 2 0 3/ignoreMovementAnimation {{Honeyfuggle}} false/move {{Honeyfuggle}} 0 5 2/faceDirection farmer 2/faceDirection {{Honeyfuggle}} 0/emote {{Honeyfuggle}} 56/move {{Honeyfuggle}} 0 8 2/warp {{Honeyfuggle}} -100 -100
                 /emote farmer 8/message \"{{i18n:{{ModId}}_Introduction.12}}\"/pause 1000/end"
             }
         },

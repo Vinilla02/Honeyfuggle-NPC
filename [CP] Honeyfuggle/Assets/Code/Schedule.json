@@ -4,7 +4,7 @@
         {
             "LogName": "Pre-intro schedule",
             "Action": "EditData",
-            "Target": "Characters/Schedules/{{Honeyfuggle}}",
+            "Target": "Characters/schedules/{{Honeyfuggle}}",
             "Entries": {
                 "spring": "{{TentChill}}",
                 "rain": "GOTO spring"
@@ -16,7 +16,7 @@
         {
             "LogName": "Main schedule", 
             "Action": "EditData",
-            "Target": "Characters/Schedules/{{Honeyfuggle}}",
+            "Target": "Characters/schedules/{{Honeyfuggle}}",
             "Entries": {
                 //After intro
                 "rain": "800 {{ModId}}_Tent 3 2 2 {{ModId}}_pillows/1200 Forest 34 26 {{ModId}}_dangle/1800 {{ModId}}_Tent 3 2 2 {{ModId}}_pillows/2340 {{ModId}}_Tent 1 4 3 {{ModId}}_sleep", //Sitting on dock in Cindersap

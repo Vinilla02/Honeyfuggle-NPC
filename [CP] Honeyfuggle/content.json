@@ -144,6 +144,18 @@
             "Value": "a1430 AdventureGuild 7 12 3/1700 Mountain 61 11 2/2000 {{ModId}}_Tent 1 4 3 {{ModId}}_sleep"
         },
         {
+            "Name": "SBVHangout",
+            "Value": ""
+        },
+        {
+            "Name": "SBVHangout",
+            "Value": ", 700 Custom_SBV_DialaCafe 17 13 1 \"Strings\\schedules\\{{Honeyfuggle}}:{{ModId}}_DialaCafe\"/a1700 Custom_SBV_SunberryVillage 55 87 1/2230 {{ModId}}_Tent 1 4 3 {{ModId}}_sleep",
+            "When": {
+                "HasMod": "skellady.SBVCP",
+                "Season |contains=Winter": "false"
+            }
+        },
+        {
             "Name": "FridaySch",
             "Value": "{{Random:{{MarnieSocial}},{{GuntherSocial}}}}",
         },
@@ -153,7 +165,7 @@
         },
         {
             "Name": "SaturdaySch",
-            "Value": "{{Random:{{MarlonSocial}},{{MarnieSocial}},{{GuntherSocial}}}}",
+            "Value": "{{Random:{{MarlonSocial}},{{MarnieSocial}},{{GuntherSocial}}{{SBVHangout}}}}",
             "When": {
                 "HasSeenEvent":"{{ModId}}_10Heart"
             }
@@ -233,7 +245,7 @@
         },
         {
             "Name": "GatheringPosition",
-            "Value": "135 53 down",
+            "Value": "134 56 up",
             "When": {
                 "HasMod": "skellady.SBVCP"
             }
@@ -250,7 +262,7 @@
         {
             "LogName": "Blank JSON - Wizard",
             "Action": "Load",
-            "Target": "Strings/Schedules/Wizard, Characters/schedules/Wizard",
+            "Target": "Strings/schedules/Wizard, Characters/schedules/Wizard",
             "FromFile": "Assets/Code/blank.json",
             "Priority": "Low"
         },

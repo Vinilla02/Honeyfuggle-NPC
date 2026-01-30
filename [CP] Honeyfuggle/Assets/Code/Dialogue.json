@@ -94,7 +94,7 @@
 				"fall_Wed10": "{{i18n:fall_Wed10}}",
 				"fall_Fri10": "{{i18n:fall_Fri10}}",
 				"winter_Sun10": "{{i18n:winter_Sun10}}",
-				"winter_Fri10": "{{i18n:winter_Thu10}}",
+				"winter_Fri10": "{{i18n:winter_Fri10}}",
 
 				//Day-specific
 				"spring_1": "{{i18n:spring_1}}",
@@ -202,19 +202,21 @@
 		{
 			"LogName": "Honeyfuggle schedule strings",
             "Action": "EditData",
-		  	"Target": "Strings/Schedules/{{Honeyfuggle}}",
+		  	"Target": "Strings/schedules/{{Honeyfuggle}}",
             "Entries": {
 				"{{ModId}}_Wizard": "{{i18n:Wizard.1}}",
 				"{{ModId}}_Gunther": "{{i18n:Gunther}}",
 				"{{ModId}}_Saloon": "{{i18n:Saloon}}",
 				"{{ModId}}_Beach": "{{i18n:Beach}}",
-				"{{ModId}}_NightMarket": "{{i18n:NightMarket}}"
+				"{{ModId}}_NightMarket": "{{i18n:NightMarket}}",
+				"{{ModId}}_DialaCafe": "{{i18n:DialaCafe}}",
+				"{{ModId}}_SaturdayHangout": "{{i18n:SaturdayHangout.{{Random:1,2,3}}}}"
 			}
 		},
 		{
 			"LogName": "Wizard schedule string",
 			"Action": "EditData",
-			"Target": "Strings/Schedules/Wizard",
+			"Target": "Strings/schedules/Wizard",
 			"Entries": {
 				"{{ModId}}_Wizard": "{{i18n:{{ModId}}_Wizard.2.{{Random:Neutral,Fem,Masc}}}}"
 
