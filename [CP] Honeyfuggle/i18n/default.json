@@ -206,10 +206,10 @@
     "Beach": "Lots of interesting things can be washed ashore by the ocean waves, and I don't just mean seashells. It's always worth taking a look to see what you might find!",
     "NightMarket": "What a fascinating little event this is. Cosy yet cold, inviting yet unknowably mysterious.#$b#I want to know more, but at the same time I don't want to ruin the magic of the unknown.$3",
     "DesertFestival": "This whole festival is great, but I'm gravitating towards this fellow in particular. He's my kind of guy.$1",
-    "DialaCafe": "I should visit Sunberry more often. How could I resist such cute kitties and such sweet treats?$4",
-    "SaturdayHangout.1": "I can't decide whether to sit somewhere that's good for the acoustics of Elias's guitar or somewhere close to the grill so I can enjoy all the delicious smells. I think this spot is the best of both worlds?$6",
-    "SaturdayHangout.2": "I'm still a bit nervous about attending these hangouts, since it's hard for me to accept that I'm really part of a 'community', let alone one here in the valley.$2#$b#But I didn't want to seem rude by declining after Ophelia gave me a very convincing sales pitch on the whole thing. I can tell she cares a lot about this village.",
-    "SaturdayHangout.3": "These hangouts are so much more peaceful and cosy than busy nights at the saloon. I'm glad it gives me a chance to chat with so many friendly faces.$4",
+    "DialaCafe": "I should visit Sunberry more often. How could I resist such cute kitties and such sweet treats?$4", //new in 1.2.1: Sunberry Village crossover
+    "SaturdayHangout.1": "I can't decide whether to sit somewhere that's good for the acoustics of Elias's guitar or somewhere close to the grill so I can enjoy all the delicious smells. I think this spot is the best of both worlds?$6", //new in 1.2.1: Sunberry Village crossover
+    "SaturdayHangout.2": "I'm still a bit nervous about attending these hangouts, since it's hard for me to accept that I'm really part of a 'community', let alone one here in the valley.$2#$b#But I didn't want to seem rude by declining after Ophelia gave me a very convincing sales pitch on the whole thing. I can tell she cares a lot about this village.", //new in 1.2.1: Sunberry Village crossover
+    "SaturdayHangout.3": "These hangouts are so much more peaceful and cosy than busy nights at the saloon. I'm glad it gives me a chance to chat with so many friendly faces.$4", //new in 1.2.1: Sunberry Village crossover
 
     //Map
     "Chest": "An old, heavy-looking chest which seems to have a strange, purple glow surrounding it. Better not touch!",
