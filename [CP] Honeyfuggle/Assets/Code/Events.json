@@ -70,7 +70,7 @@
                 /move farmer -3 0 2/pause 800/emote farmer 8/end",
 
                 //Eight heart event - has seen six heart event
-                "{{ModId}}_8Heart/Friendship {{Honeyfuggle}} 1500/SawEvent {{ModId}}_6Heart": "spirits_eve/2 3/farmer 3 5 0 {{Honeyfuggle}} -100 -100 0/skippable/pause 1000
+                "{{ModId}}_8Heart/Friendship {{Honeyfuggle}} 2000/SawEvent {{ModId}}_6Heart": "spirits_eve/2 3/farmer 3 5 0 {{Honeyfuggle}} -100 -100 0/skippable/pause 1000
                 /move farmer 0 -2 1/pause 500/faceDirection farmer 3/pause 500/emote farmer 40/message \"{{i18n:{{ModId}}_8Heart.0}}\"/move farmer 0 1 1/pause 1000
                 /showFrame 35/pause 800/playSound debuffHit/stopAnimation farmer/jump farmer/move farmer -1 0 1/pause 1500
                 /message \"{{i18n:{{ModId}}_8Heart.1}}\"/move farmer 1 0 1
@@ -95,7 +95,7 @@
             "Target": "Data/Events/ArchaeologyHouse",
             "Entries": {
                 //Six heart event - has seen four heart event
-                "{{ModId}}_6Heart/Friendship {{Honeyfuggle}} 2000/SawEvent {{ModId}}_4Heart": "libraryTheme/7 11/farmer 3 14 0 {{Honeyfuggle}} 8 10 0 Gunther 3 8 2 Elliott 10 10 2 Penny 16 9 0/showFrame Elliott 33/skippable/pause 500
+                "{{ModId}}_6Heart/Friendship {{Honeyfuggle}} 1500/SawEvent {{ModId}}_4Heart": "libraryTheme/7 11/farmer 3 14 0 {{Honeyfuggle}} 8 10 0 Gunther 3 8 2 Elliott 10 10 2 Penny 16 9 0/showFrame Elliott 33/skippable/pause 500
                 /playSound doorClose/pause 500/advancedMove Penny true 2 0 4 4500 -2 0 4 6000/advancedMove farmer false 0 -2 5 0 0 -4 1 1000
                 /move {{Honeyfuggle}} -5 0 0/pause 500/speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_6Heart.0}}\"
                 /speak Gunther \"{{i18n:{{ModId}}_6Heart.1.{{Random:Neutral,Fem,Masc}}}}\"
@@ -121,7 +121,7 @@
             "Target": "Data/Events/ArchaeologyHouse",
             "Entries": {
                 //Six heart event - has seen four heart event
-                "{{ModId}}_6Heart/Friendship {{Honeyfuggle}} 2000/SawEvent {{ModId}}_4Heart": "libraryTheme/7 11/farmer 3 14 0 {{Honeyfuggle}} 8 10 0 GuntherSilvian 4 8 2 Elliott 10 10 2 Penny 16 9 0/showFrame Elliott 33/skippable/pause 500
+                "{{ModId}}_6Heart/Friendship {{Honeyfuggle}} 1500/SawEvent {{ModId}}_4Heart": "libraryTheme/7 11/farmer 3 14 0 {{Honeyfuggle}} 8 10 0 GuntherSilvian 4 8 2 Elliott 10 10 2 Penny 16 9 0/showFrame Elliott 33/skippable/pause 500
                 /playSound doorClose/pause 500/advancedMove Penny true 2 0 4 4500 -2 0 4 6000/advancedMove farmer false 0 -2 5 0 0 -4 1 1000
                 /move {{Honeyfuggle}} -4 0 0/pause 500/speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_6Heart.0}}\"
                 /speak GuntherSilvian \"{{i18n:{{ModId}}_6Heart.1.{{Random:Neutral,Fem,Masc}}}}\"
@@ -147,7 +147,7 @@
             "Target": "Data/Events/Forest",
             "Entries": {
                 //Ten heart event - has seen 8 heart event, time must be between 9:00pm and 2:00am, not the first week or last day of any season, and, optionally, has completed the Magic Ink quest
-                "{{ModId}}_10Heart/Friendship {{Honeyfuggle}} 2000/SawEvent {{ModId}}_8Heart/Time 2100 2600/!DayOfMonth 1 2 3 4 5 6 7 28{{Immersive}}": "nightTime/9 40/{{Honeyfuggle}} 6 37 0 farmer 15 41 3 Wizard -100 -100 2/addConversationTopic {{ModId}}_Departure
+                "{{ModId}}_10Heart/Friendship {{Honeyfuggle}} 2500/SawEvent {{ModId}}_8Heart/Time 2100 2600/!DayOfMonth 1 2 3 4 5 6 7 28{{Immersive}}": "nightTime/9 40/{{Honeyfuggle}} 6 37 0 farmer 15 41 3 Wizard -100 -100 2/addConversationTopic {{ModId}}_Departure
                 /move farmer -5 0 3/move farmer 0 -2 0
                 /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.0}}\"/emote farmer 16
                 /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.1}}\"/pause 1500/emote farmer 8
@@ -215,7 +215,7 @@
             "Target": "Data/Events/Forest",
             "Entries": {
                 //Ten heart event - has seen 8 heart event, time must be between 9:00pm and 2:00am, not the first week or last day of any season, and, optionally, has completed the Magic Ink quest
-                "{{ModId}}_10Heart/Friendship {{Honeyfuggle}} 2000/SawEvent {{ModId}}_8Heart/Time 2100 2600/!DayOfMonth 1 2 3 4 5 6 7 28{{Immersive}}": "nightTime/9 40/{{Honeyfuggle}} 6 37 0 farmer 15 41 3 Wizard -100 -100 2/addConversationTopic {{ModId}}_Departure
+                "{{ModId}}_10Heart/Friendship {{Honeyfuggle}} 2500/SawEvent {{ModId}}_8Heart/Time 2100 2600/!DayOfMonth 1 2 3 4 5 6 7 28{{Immersive}}": "nightTime/9 40/{{Honeyfuggle}} 6 37 0 farmer 15 41 3 Wizard -100 -100 2/addConversationTopic {{ModId}}_Departure
                 /move farmer -5 0 3/move farmer 0 -2 0
                 /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.0}}\"/emote farmer 16
                 /speak {{Honeyfuggle}} \"{{i18n:{{ModId}}_10Heart.1}}\"/pause 1500/emote farmer 8
